@@ -50,28 +50,30 @@ class Louvain_graph {
 
 public:
   Louvain_graph(Graph<double>* _graph){
-   my_graph = *graph;
+   my_graph = _graph;
   }
 
   void init(){
-   if(my_graph == NULL){
-     exit(0);
-   }
-   active = my_graph->alloc_vertex_bitmap();
-   label = my_graph->alloc_vertex_array<VertexId>();
-   active->fill();
-    graph->fill_vertex_array(k, (double)0.0);
-    graph->fill_vertex_array(e_tot, (double)0.0);
+    if(my_graph == NULL){
+      exit(0);
+    }
+    active = my_graph->alloc_vertex_bitmap();
+    label = my_graph->alloc_vertex_array<VertexId>();
+    k = my_graph->alloc_vertex_array<double>();
+    e_tot = my_graph->alloc_vertex_array<double>();
 
-   m = my_graph->stream_vertex<VertexId>(
+    active->fill();
+    my_graph->fill_vertex_array(k, (double)0.0);
+    my_graph->fill_vertex_array(e_tot, (double)0.0);
+
+    m = my_graph->stream_vertices<double>(
       [&](VertexId dst){
         label[dst] = dst;
         for(auto e : my_graph->out_edges(dst)){
-          VertexId src = dst.neighbour;
-          k[dst] += src.edge_data;
+          k[dst] += e.edge_data;
         }
         e_tot[dst] = k[dst];
-        return k[dst]
+        return k[dst];
       },
       active
     ) / 2;
@@ -80,28 +82,27 @@ public:
   //init over
 
   VertexId louvain_first(){
-    VertexId active_vertices = stream_vertex(
-
-      std::unordered_map<VertexId,double> count;
-
+    VertexId active_vertices = my_graph->stream_vertices<VertexId>(
       [&](VertexId dst){
+        std::unordered_map<VertexId, double> count;
         for(auto e : my_graph->out_edges(dst)){
           VertexId src = e.neighbour;
           if(label[src] != label[dst]){
             auto it = count.find(label[src]);
             if(it != count.end()){
-              it->second += src.edge_data;
+              it->second += e.edge_data;
             }else{
-              it->second = src.edge_data;
+              it->second = e.edge_data;
             }
           }
         }
-        VertexId best_c = label[src];
+        VertexId best_c = label[dst];
         double delta_in = 0.0;
 
         for (auto & ele : count){
-          if(ele != ele.first){
-            double delta_out = count[ele]*2.0*m - k[dst]*e_tot[ele.second];
+          if(label[dst] != ele.first){
+            double k_i_in = ele.second;
+            double delta_out = k_i_in*2.0*m - k[dst]*e_tot[ele.first];
             if(delta_out > delta_in){
               best_c = ele.second;
               delta_in = delta_out;
@@ -111,11 +112,11 @@ public:
             }
           }
         }
-        if(best_c != label[src]){
-          write_add(&e_tot[label[src]],-k[src]);
-          my_graph->lock_vertex(src);
-          label[src] = best_c;
-          my_graph->unlock_vertex(src);
+        if(best_c != label[dst]){
+          write_add(&e_tot[label[dst]],-k[dst]);
+          my_graph->lock_vertex(dst);
+          label[dst] = best_c;
+          my_graph->unlock_vertex(dst);
           return 1;
         }
         return 0;
@@ -125,7 +126,7 @@ public:
     return active_vertices;
   }
 
-}
+};
 
 int main(int argc, char ** argv) {
   int input_format = 1;
@@ -148,6 +149,6 @@ int main(int argc, char ** argv) {
   } else {
     graph->load_txt_undirected(input_dir, vertices, parse_edge, filter_edge);
   }
-  Louvain_graph * l_graph = new LouvainGraph(graph, active_threshold);
+  Louvain_graph * l_graph = new Louvain_graph(graph);
   l_graph->init();
 }
