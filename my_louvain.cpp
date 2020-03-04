@@ -95,8 +95,8 @@ public:
   }
 
   void update_e_tot() {
-    graph->fill_vertex_array(e_tot, (double)0.0);
-    graph->stream_vertices<VertexId>(
+    my_graph->fill_vertex_array(e_tot, (double)0.0);
+    my_graph->stream_vertices<VertexId>(
       [&] (VertexId v) {
         write_add(&e_tot[label[v]], k[v]);
         return 0;
@@ -185,15 +185,17 @@ public:
   }
   //first iter of Louvain
   void Louvain_propagate(){
+    printf("enter Louvain_propagate\n");
   	VertexId active_vertices = my_graph->get_num_vertices();
-  	VertexId old_vertices = active_vertices;
+  	LOG()<<"active_vertices = "<<active_vertices;
+    VertexId old_vertices = active_vertices;
   	int cyc = 0;
   	int comm_cyc = 0;
   	while(active_vertices > 0){
   		old_vertices = active_vertices;
   		active_vertices = async_louvain();
-  		LOG() << "active_vertices(" << iters << ") = " << active_vertices;
-      	iters++;
+  		LOG() << "active_vertices(" << cyc << ") = " << active_vertices;
+      	cyc++;
       	if(old_vertices == active_vertices){
       		comm_cyc++;
       	}else{
@@ -209,46 +211,46 @@ public:
 
   void update_by_subgraph(){
   	//label,my_graph,
-  	long int * sub_index = graph->alloc_vertex_array<long int>();
+  	long int * sub_index = my_graph->alloc_vertex_array<long int>();
     VertexId num_sub_vertices = 0;			//vertices of new graph
-    for (VertexId v_i = 0; v_i < graph->get_num_vertices();v_i ++) {
-      if (e_tot[v_i] == 0) {
-        sub_index[v_i] = -1;
+    for (VertexId i = 0; i < my_graph->get_num_vertices();i ++) {
+      if (e_tot[i] == 0) {
+        sub_index[i] = -1;
       } else {
-        sub_index[v_i] = num_sub_vertices;
+        sub_index[i] = num_sub_vertices;
         num_sub_vertices++;
       }
     }
 
     std::vector<std::unordered_map<VertexId, double> > sub_edges(num_sub_vertices);
 
-    for(int i = 0;i < graph->get_num_vertices();i ++){
+    for(VertexId i = 0;i < my_graph->get_num_vertices();i ++){
     	if(sub_index[label[i]] == -1) continue;
     	for(auto e : my_graph->out_edges(i)){
     		//only save one direction out_edges
     		if(i <= e.neighbour){
-    			double e_wight = e.edge_data;
+    			double e_weight = e.edge_data;
     			if(i == e.neighbour){
-    				e_wight /= 2;
+    				e_weight /= 2;
     			}
-    			auto iter = sub_edges[sub_index[label[v]]].find(sub_index[label[e.neighbour]]);
-    			if(iter == sub_edges[sub_index[label[v]]].end()){
-    				sub_edges[sub_index[label[v]]][sub_index[label[e.neighbour]]] = e_weight;
+    			auto iter = sub_edges[sub_index[label[i]]].find(sub_index[label[e.neighbour]]);
+    			if(iter == sub_edges[sub_index[label[i]]].end()){
+    				sub_edges[sub_index[label[i]]][sub_index[label[e.neighbour]]] = e_weight;
     			}else{
-    				iter->second += e_wight;
+    				iter->second += e_weight;
     			}
     		}
     	}
     }
 
     VertexId sub_edges_num = 0;
-    for(int i = 0;i < sub_edges.size();i++){
+    for(VertexId i = 0;i < sub_edges.size();i++){
     	sub_edges_num += sub_edges[i].size();
     }
 
     EdgeUnit<double> * sub_edge_array = new EdgeUnit<double>[sub_edges_num];
     VertexId index = 0;
-    for(int sub_node = 0;sub_node < num_sub_vertices;sub_node ++){
+    for(VertexId sub_node = 0;sub_node < num_sub_vertices;sub_node ++){
     	for(auto ele : sub_edges[sub_node]){
     		assert(index < sub_edges_num);
     		sub_edge_array[index].src = sub_node;
@@ -273,7 +275,7 @@ public:
         if (sub_index[v] < 0) {
           return 0;
         }
-        sub_to_parent_label[sub_index[v]] = v;
+        sub_to_parent_map[sub_index[v]] = v;
         return 1;
       },
       active
@@ -290,13 +292,13 @@ public:
     }
 
     //将当前sub_graph的点映射回去
-    graph->stream_vertices<VertexId> (
+    my_graph->stream_vertices<VertexId> (
       [&] (VertexId v) {
         if (sub_index[label[v]] <= 0) {
           return 0;
         }
-        VertexId sub_index_v_comm = sub_louvain_graph->label[sub_index[label[v]]];
-        label[v] = sub_to_parent_label[sub_index_v_comm];
+        VertexId sub_index_v_comm = sub_my_graph->label[sub_index[label[v]]];
+        label[v] = sub_to_parent_map[sub_index_v_comm];
         return 0;
       },
       active
@@ -329,7 +331,8 @@ int main(int argc, char ** argv) {
   Louvain_graph * l_graph = new Louvain_graph(graph);
   l_graph->init();
   //init测试完成
+  printf("here\n");
   l_graph->Louvain_propagate();
-  l_graph->update_by_subgraph();
-  l_graph->update_all();
+  //l_graph->update_by_subgraph();
+  //l_graph->update_all();
 }
