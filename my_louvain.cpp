@@ -138,35 +138,43 @@ public:
     LOG()<<"m = "<<m;
   }
   //init over
-
+  //async_louvain has bugs
   VertexId async_louvain(){
     VertexId active_vertices = my_graph->stream_vertices<VertexId>(
       [&](VertexId dst){
         std::unordered_map<VertexId, double> count;
-        for(auto e : my_graph->out_edges(dst)){
+        for (auto e : my_graph->out_edges(dst)) {
+          if (dst == e.neighbour) continue;
           VertexId src = e.neighbour;
-          if(label[src] != label[dst]){
-            auto it = count.find(label[src]);
-            if(it != count.end()){
-              it->second += e.edge_data;
-            }else{
-              it->second = e.edge_data;
-            }
+          auto it = count.find(label[src]);
+          if (it == count.end()) {
+            count[label[src]] = e.edge_data;
+          }else{
+            it->second += e.edge_data;
           }
         }
         VertexId best_c = label[dst];
-        double delta_in = 0.0;
+        // double delta_in = 0.0;
+        VertexId old_label = label[dst];
+
+        double k_in_out = 0.0;
+        
+        if (count.find(old_label) != count.end()) {
+          k_in_out = count[old_label];
+        }
+        double delta_in = k[dst] * (e_tot[old_label]-k[dst]) - 2.0 * k_in_out * m;
+        delta_in = -delta_in;
 
         for (auto & ele : count){
           if(label[dst] != ele.first){
             double k_i_in = ele.second;
             double delta_out = k_i_in*2.0*m - k[dst]*e_tot[ele.first];
             if(delta_out > delta_in){
-              best_c = ele.second;
+              best_c = ele.first;
               delta_in = delta_out;
             }else
             if(delta_out == delta_in && ele.second < best_c){
-              best_c = ele.second;
+              best_c = ele.first;
             }
           }
         }
@@ -174,6 +182,7 @@ public:
           write_add(&e_tot[label[dst]],-k[dst]);
           my_graph->lock_vertex(dst);
           label[dst] = best_c;
+          write_add(&e_tot[best_c],k[dst]);
           my_graph->unlock_vertex(dst);
           return 1;
         }
@@ -183,11 +192,12 @@ public:
     );
     return active_vertices;
   }
+
   //first iter of Louvain
   void Louvain_propagate(){
     printf("enter Louvain_propagate\n");
   	VertexId active_vertices = my_graph->get_num_vertices();
-  	LOG()<<"active_vertices = "<<active_vertices;
+  	// LOG()<<"active_vertices = "<<active_vertices;
     VertexId old_vertices = active_vertices;
   	int cyc = 0;
   	int comm_cyc = 0;
@@ -229,15 +239,15 @@ public:
     	for(auto e : my_graph->out_edges(i)){
     		//only save one direction out_edges
     		if(i <= e.neighbour){
-    			double e_weight = e.edge_data;
+    			double e_double = e.edge_data;
     			if(i == e.neighbour){
-    				e_weight /= 2;
+    				e_double /= 2;
     			}
     			auto iter = sub_edges[sub_index[label[i]]].find(sub_index[label[e.neighbour]]);
     			if(iter == sub_edges[sub_index[label[i]]].end()){
-    				sub_edges[sub_index[label[i]]][sub_index[label[e.neighbour]]] = e_weight;
+    				sub_edges[sub_index[label[i]]][sub_index[label[e.neighbour]]] = e_double;
     			}else{
-    				iter->second += e_weight;
+    				iter->second += e_double;
     			}
     		}
     	}
