@@ -65,7 +65,7 @@ public:
   		},
   		active
   	);
-  	LOG()<<"community num is "<<comm_num;
+  	printf("community num is %lu\n",comm_num);
   	return comm_num;
   }
 
@@ -86,7 +86,7 @@ public:
       },
       active
     ) / (2.0 * m);
-    LOG() << "Q = " << Q;
+    printf("community num is %f\n",Q);
     return Q;
   }
 
@@ -135,10 +135,9 @@ public:
       },
       active
     ) / 2;
-    LOG()<<"m = "<<m;
+    printf("m = %f\n",m);
   }
   //init over
-  //async_louvain has bugs
   VertexId async_louvain(){
     VertexId active_vertices = my_graph->stream_vertices<VertexId>(
       [&](VertexId dst){
@@ -155,15 +154,17 @@ public:
         }
         VertexId best_c = label[dst];
         // double delta_in = 0.0;
+        //diffrent init of delta_in
         VertexId old_label = label[dst];
 
         double k_in_out = 0.0;
-        
+        //k_in_out 表示待移动节点和当前社区的连接权重和
         if (count.find(old_label) != count.end()) {
           k_in_out = count[old_label];
         }
         double delta_in = k[dst] * (e_tot[old_label]-k[dst]) - 2.0 * k_in_out * m;
         delta_in = -delta_in;
+        //delta_in init over
 
         for (auto & ele : count){
           if(label[dst] != ele.first){
@@ -173,7 +174,7 @@ public:
               best_c = ele.first;
               delta_in = delta_out;
             }else
-            if(delta_out == delta_in && ele.second < best_c){
+            if(delta_out == delta_in && ele.first < best_c){
               best_c = ele.first;
             }
           }
@@ -204,7 +205,7 @@ public:
   	while(active_vertices > 0){
   		old_vertices = active_vertices;
   		active_vertices = async_louvain();
-  		LOG() << "active_vertices(" << cyc << ") = " << active_vertices;
+      printf("active_vertices(%d) = %lu\n", cyc, active_vertices);
       	cyc++;
       	if(old_vertices == active_vertices){
       		comm_cyc++;
@@ -217,6 +218,8 @@ public:
       		break;
       	}
   	}
+  	update_comm_num();
+    update_Q();
   }
 
   void update_by_subgraph(){
@@ -343,6 +346,6 @@ int main(int argc, char ** argv) {
   //init测试完成
   printf("here\n");
   l_graph->Louvain_propagate();
-  //l_graph->update_by_subgraph();
+  l_graph->update_by_subgraph();
   //l_graph->update_all();
 }

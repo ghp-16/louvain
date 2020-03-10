@@ -1,0 +1,4292 @@
+<====     my_louvain  livejournal     ====>
+set |V| to 0
+|V| = 4847571 |E| = 68993773
+edges loaded into memory
+preprocessing used 5.26 seconds
+m = 68734582.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 4205737
+active_vertices(1) = 2149347
+active_vertices(2) = 818491
+active_vertices(3) = 275175
+active_vertices(4) = 120839
+active_vertices(5) = 65428
+active_vertices(6) = 40365
+active_vertices(7) = 26666
+active_vertices(8) = 18462
+active_vertices(9) = 14093
+active_vertices(10) = 10759
+active_vertices(11) = 8167
+active_vertices(12) = 6235
+active_vertices(13) = 4649
+active_vertices(14) = 3954
+active_vertices(15) = 3561
+active_vertices(16) = 2888
+active_vertices(17) = 2393
+active_vertices(18) = 1901
+active_vertices(19) = 1551
+active_vertices(20) = 1264
+active_vertices(21) = 1108
+active_vertices(22) = 1036
+active_vertices(23) = 989
+active_vertices(24) = 870
+active_vertices(25) = 725
+active_vertices(26) = 631
+active_vertices(27) = 486
+active_vertices(28) = 382
+active_vertices(29) = 293
+active_vertices(30) = 328
+active_vertices(31) = 342
+active_vertices(32) = 279
+active_vertices(33) = 266
+active_vertices(34) = 258
+active_vertices(35) = 175
+active_vertices(36) = 189
+active_vertices(37) = 160
+active_vertices(38) = 169
+active_vertices(39) = 122
+active_vertices(40) = 61
+active_vertices(41) = 62
+active_vertices(42) = 32
+active_vertices(43) = 1
+active_vertices(44) = 0
+community num is 236074
+community num is 0.696117
+set |V| to 236074
+|V| =  236074, |E| = 2080782
+preprocessing used 0.13 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 215736
+active_vertices(1) = 85077
+active_vertices(2) = 18001
+active_vertices(3) = 5734
+active_vertices(4) = 2827
+active_vertices(5) = 1125
+active_vertices(6) = 619
+active_vertices(7) = 398
+active_vertices(8) = 124
+active_vertices(9) = 20
+active_vertices(10) = 3
+active_vertices(11) = 0
+community num is 18581
+community num is 0.751267
+set |V| to 18581
+|V| =  18581, |E| = 294690
+preprocessing used 0.08 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 11721
+active_vertices(1) = 5873
+active_vertices(2) = 2646
+active_vertices(3) = 876
+active_vertices(4) = 106
+active_vertices(5) = 22
+active_vertices(6) = 3
+active_vertices(7) = 0
+community num is 6889
+community num is 0.758987
+set |V| to 6889
+|V| =  6889, |E| = 35742
+preprocessing used 0.05 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 338
+active_vertices(1) = 145
+active_vertices(2) = 37
+active_vertices(3) = 20
+active_vertices(4) = 5
+active_vertices(5) = 8
+active_vertices(6) = 4
+active_vertices(7) = 1
+active_vertices(8) = 0
+community num is 6600
+community num is 0.759734
+set |V| to 6600
+|V| =  6600, |E| = 18419
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 19
+active_vertices(1) = 19
+active_vertices(2) = 3
+active_vertices(3) = 0
+community num is 6590
+community num is 0.759740
+set |V| to 6590
+|V| =  6590, |E| = 16694
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 6590
+community num is 0.759740
+<====     my_louvain  livejournal     ====>
+set |V| to 0
+|V| = 4847571 |E| = 68993773
+edges loaded into memory
+preprocessing used 5.66 seconds
+m = 68734582.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 4199403
+active_vertices(1) = 2164908
+active_vertices(2) = 850804
+active_vertices(3) = 288544
+active_vertices(4) = 129047
+active_vertices(5) = 70607
+active_vertices(6) = 43040
+active_vertices(7) = 29627
+active_vertices(8) = 20799
+active_vertices(9) = 15365
+active_vertices(10) = 10772
+active_vertices(11) = 8377
+active_vertices(12) = 6888
+active_vertices(13) = 6052
+active_vertices(14) = 4771
+active_vertices(15) = 4154
+active_vertices(16) = 3337
+active_vertices(17) = 2733
+active_vertices(18) = 2435
+active_vertices(19) = 2174
+active_vertices(20) = 1935
+active_vertices(21) = 1764
+active_vertices(22) = 1589
+active_vertices(23) = 1478
+active_vertices(24) = 1609
+active_vertices(25) = 1851
+active_vertices(26) = 1812
+active_vertices(27) = 1504
+active_vertices(28) = 1012
+active_vertices(29) = 736
+active_vertices(30) = 538
+active_vertices(31) = 367
+active_vertices(32) = 242
+active_vertices(33) = 259
+active_vertices(34) = 275
+active_vertices(35) = 287
+active_vertices(36) = 474
+active_vertices(37) = 634
+active_vertices(38) = 479
+active_vertices(39) = 434
+active_vertices(40) = 381
+active_vertices(41) = 259
+active_vertices(42) = 202
+active_vertices(43) = 183
+active_vertices(44) = 88
+active_vertices(45) = 69
+active_vertices(46) = 83
+active_vertices(47) = 82
+active_vertices(48) = 67
+active_vertices(49) = 49
+active_vertices(50) = 15
+active_vertices(51) = 8
+active_vertices(52) = 10
+active_vertices(53) = 6
+active_vertices(54) = 0
+community num is 237211
+community num is 0.696532
+set |V| to 237211
+|V| =  237211, |E| = 2107100
+preprocessing used 0.19 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 216524
+active_vertices(1) = 103389
+active_vertices(2) = 21103
+active_vertices(3) = 6204
+active_vertices(4) = 2536
+active_vertices(5) = 1250
+active_vertices(6) = 761
+active_vertices(7) = 384
+active_vertices(8) = 163
+active_vertices(9) = 171
+active_vertices(10) = 420
+active_vertices(11) = 519
+active_vertices(12) = 289
+active_vertices(13) = 88
+active_vertices(14) = 15
+active_vertices(15) = 4
+active_vertices(16) = 0
+community num is 18860
+community num is 0.750804
+set |V| to 18860
+|V| =  18860, |E| = 311654
+preprocessing used 0.06 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 11860
+active_vertices(1) = 5564
+active_vertices(2) = 1472
+active_vertices(3) = 339
+active_vertices(4) = 122
+active_vertices(5) = 37
+active_vertices(6) = 7
+active_vertices(7) = 0
+community num is 6986
+community num is 0.759060
+set |V| to 6986
+|V| =  6986, |E| = 37091
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 353
+active_vertices(1) = 178
+active_vertices(2) = 76
+active_vertices(3) = 36
+active_vertices(4) = 33
+active_vertices(5) = 41
+active_vertices(6) = 55
+active_vertices(7) = 48
+active_vertices(8) = 47
+active_vertices(9) = 44
+active_vertices(10) = 43
+active_vertices(11) = 42
+active_vertices(12) = 27
+active_vertices(13) = 31
+active_vertices(14) = 36
+active_vertices(15) = 25
+active_vertices(16) = 35
+active_vertices(17) = 36
+active_vertices(18) = 37
+active_vertices(19) = 25
+active_vertices(20) = 34
+active_vertices(21) = 40
+active_vertices(22) = 33
+active_vertices(23) = 63
+active_vertices(24) = 49
+active_vertices(25) = 26
+active_vertices(26) = 30
+active_vertices(27) = 21
+active_vertices(28) = 43
+active_vertices(29) = 43
+active_vertices(30) = 36
+active_vertices(31) = 35
+active_vertices(32) = 22
+active_vertices(33) = 57
+active_vertices(34) = 45
+active_vertices(35) = 64
+active_vertices(36) = 53
+active_vertices(37) = 56
+active_vertices(38) = 52
+active_vertices(39) = 55
+active_vertices(40) = 54
+active_vertices(41) = 57
+active_vertices(42) = 47
+active_vertices(43) = 53
+active_vertices(44) = 56
+active_vertices(45) = 67
+active_vertices(46) = 74
+active_vertices(47) = 69
+active_vertices(48) = 79
+active_vertices(49) = 75
+active_vertices(50) = 70
+active_vertices(51) = 69
+active_vertices(52) = 64
+active_vertices(53) = 77
+active_vertices(54) = 64
+active_vertices(55) = 57
+active_vertices(56) = 21
+active_vertices(57) = 45
+active_vertices(58) = 65
+active_vertices(59) = 54
+active_vertices(60) = 43
+active_vertices(61) = 54
+active_vertices(62) = 38
+active_vertices(63) = 34
+active_vertices(64) = 34
+active_vertices(65) = 18
+active_vertices(66) = 21
+active_vertices(67) = 34
+active_vertices(68) = 48
+active_vertices(69) = 35
+active_vertices(70) = 56
+active_vertices(71) = 51
+active_vertices(72) = 34
+active_vertices(73) = 38
+active_vertices(74) = 51
+active_vertices(75) = 26
+active_vertices(76) = 24
+active_vertices(77) = 17
+active_vertices(78) = 5
+active_vertices(79) = 3
+active_vertices(80) = 0
+community num is 6554
+community num is 0.759801
+set |V| to 6554
+|V| =  6554, |E| = 17499
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 26
+active_vertices(1) = 5
+active_vertices(2) = 1
+active_vertices(3) = 0
+community num is 6547
+community num is 0.759804
+set |V| to 6547
+|V| =  6547, |E| = 16119
+preprocessing used 0.00 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 6547
+community num is 0.759804
+<====     my_louvain  livejournal     ====>
+set |V| to 0
+|V| = 4847571 |E| = 68993773
+edges loaded into memory
+preprocessing used 5.43 seconds
+m = 68734582.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 4197609
+active_vertices(1) = 2164605
+active_vertices(2) = 838173
+active_vertices(3) = 280338
+active_vertices(4) = 123095
+active_vertices(5) = 65029
+active_vertices(6) = 39753
+active_vertices(7) = 25975
+active_vertices(8) = 18104
+active_vertices(9) = 12780
+active_vertices(10) = 10262
+active_vertices(11) = 8108
+active_vertices(12) = 6057
+active_vertices(13) = 6486
+active_vertices(14) = 5612
+active_vertices(15) = 4016
+active_vertices(16) = 3412
+active_vertices(17) = 2800
+active_vertices(18) = 2200
+active_vertices(19) = 1747
+active_vertices(20) = 1498
+active_vertices(21) = 1287
+active_vertices(22) = 1269
+active_vertices(23) = 1159
+active_vertices(24) = 1229
+active_vertices(25) = 1236
+active_vertices(26) = 1162
+active_vertices(27) = 1256
+active_vertices(28) = 975
+active_vertices(29) = 608
+active_vertices(30) = 489
+active_vertices(31) = 471
+active_vertices(32) = 342
+active_vertices(33) = 290
+active_vertices(34) = 398
+active_vertices(35) = 453
+active_vertices(36) = 379
+active_vertices(37) = 338
+active_vertices(38) = 314
+active_vertices(39) = 164
+active_vertices(40) = 96
+active_vertices(41) = 74
+active_vertices(42) = 27
+active_vertices(43) = 15
+active_vertices(44) = 24
+active_vertices(45) = 13
+active_vertices(46) = 17
+active_vertices(47) = 21
+active_vertices(48) = 39
+active_vertices(49) = 95
+active_vertices(50) = 150
+active_vertices(51) = 129
+active_vertices(52) = 93
+active_vertices(53) = 70
+active_vertices(54) = 56
+active_vertices(55) = 59
+active_vertices(56) = 9
+active_vertices(57) = 1
+active_vertices(58) = 0
+community num is 236813
+community num is 0.697156
+set |V| to 236813
+|V| =  236813, |E| = 2100829
+preprocessing used 0.14 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 216468
+active_vertices(1) = 83444
+active_vertices(2) = 17062
+active_vertices(3) = 4706
+active_vertices(4) = 2348
+active_vertices(5) = 1284
+active_vertices(6) = 801
+active_vertices(7) = 618
+active_vertices(8) = 328
+active_vertices(9) = 251
+active_vertices(10) = 260
+active_vertices(11) = 494
+active_vertices(12) = 887
+active_vertices(13) = 764
+active_vertices(14) = 754
+active_vertices(15) = 552
+active_vertices(16) = 407
+active_vertices(17) = 328
+active_vertices(18) = 413
+active_vertices(19) = 381
+active_vertices(20) = 230
+active_vertices(21) = 117
+active_vertices(22) = 29
+active_vertices(23) = 6
+active_vertices(24) = 4
+active_vertices(25) = 0
+community num is 18693
+community num is 0.751082
+set |V| to 18693
+|V| =  18693, |E| = 306637
+preprocessing used 0.02 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 11824
+active_vertices(1) = 5887
+active_vertices(2) = 1330
+active_vertices(3) = 495
+active_vertices(4) = 110
+active_vertices(5) = 85
+active_vertices(6) = 100
+active_vertices(7) = 15
+active_vertices(8) = 22
+active_vertices(9) = 7
+active_vertices(10) = 0
+community num is 6893
+community num is 0.758783
+set |V| to 6893
+|V| =  6893, |E| = 35144
+preprocessing used 0.00 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 338
+active_vertices(1) = 185
+active_vertices(2) = 95
+active_vertices(3) = 48
+active_vertices(4) = 38
+active_vertices(5) = 44
+active_vertices(6) = 38
+active_vertices(7) = 47
+active_vertices(8) = 51
+active_vertices(9) = 46
+active_vertices(10) = 49
+active_vertices(11) = 53
+active_vertices(12) = 51
+active_vertices(13) = 52
+active_vertices(14) = 43
+active_vertices(15) = 36
+active_vertices(16) = 39
+active_vertices(17) = 43
+active_vertices(18) = 50
+active_vertices(19) = 50
+active_vertices(20) = 49
+active_vertices(21) = 47
+active_vertices(22) = 49
+active_vertices(23) = 47
+active_vertices(24) = 66
+active_vertices(25) = 60
+active_vertices(26) = 62
+active_vertices(27) = 67
+active_vertices(28) = 70
+active_vertices(29) = 69
+active_vertices(30) = 57
+active_vertices(31) = 57
+active_vertices(32) = 61
+active_vertices(33) = 69
+active_vertices(34) = 77
+active_vertices(35) = 87
+active_vertices(36) = 82
+active_vertices(37) = 78
+active_vertices(38) = 78
+active_vertices(39) = 82
+active_vertices(40) = 71
+active_vertices(41) = 76
+active_vertices(42) = 68
+active_vertices(43) = 70
+active_vertices(44) = 72
+active_vertices(45) = 68
+active_vertices(46) = 84
+active_vertices(47) = 84
+active_vertices(48) = 91
+active_vertices(49) = 100
+active_vertices(50) = 76
+active_vertices(51) = 80
+active_vertices(52) = 93
+active_vertices(53) = 96
+active_vertices(54) = 67
+active_vertices(55) = 31
+active_vertices(56) = 93
+active_vertices(57) = 96
+active_vertices(58) = 92
+active_vertices(59) = 99
+active_vertices(60) = 95
+active_vertices(61) = 89
+active_vertices(62) = 105
+active_vertices(63) = 109
+active_vertices(64) = 93
+active_vertices(65) = 64
+active_vertices(66) = 6
+active_vertices(67) = 1
+active_vertices(68) = 0
+community num is 6492
+community num is 0.759391
+set |V| to 6492
+|V| =  6492, |E| = 17625
+preprocessing used 0.03 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 5
+active_vertices(1) = 18
+active_vertices(2) = 3
+active_vertices(3) = 0
+community num is 6488
+community num is 0.759394
+set |V| to 6488
+|V| =  6488, |E| = 16243
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 6488
+community num is 0.759394
+<====     my_louvain  livejournal     ====>
+set |V| to 0
+|V| = 4847571 |E| = 68993773
+edges loaded into memory
+preprocessing used 5.22 seconds
+m = 68734582.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 4204793
+active_vertices(1) = 2155962
+active_vertices(2) = 839237
+active_vertices(3) = 277379
+active_vertices(4) = 121714
+active_vertices(5) = 67355
+active_vertices(6) = 45012
+active_vertices(7) = 27334
+active_vertices(8) = 18515
+active_vertices(9) = 13379
+active_vertices(10) = 9738
+active_vertices(11) = 7868
+active_vertices(12) = 6452
+active_vertices(13) = 4911
+active_vertices(14) = 3665
+active_vertices(15) = 3131
+active_vertices(16) = 2681
+active_vertices(17) = 2163
+active_vertices(18) = 2286
+active_vertices(19) = 2362
+active_vertices(20) = 2313
+active_vertices(21) = 2413
+active_vertices(22) = 2164
+active_vertices(23) = 2093
+active_vertices(24) = 1352
+active_vertices(25) = 1026
+active_vertices(26) = 564
+active_vertices(27) = 344
+active_vertices(28) = 233
+active_vertices(29) = 311
+active_vertices(30) = 396
+active_vertices(31) = 372
+active_vertices(32) = 234
+active_vertices(33) = 193
+active_vertices(34) = 216
+active_vertices(35) = 195
+active_vertices(36) = 141
+active_vertices(37) = 167
+active_vertices(38) = 179
+active_vertices(39) = 130
+active_vertices(40) = 65
+active_vertices(41) = 46
+active_vertices(42) = 10
+active_vertices(43) = 3
+active_vertices(44) = 2
+active_vertices(45) = 0
+community num is 234589
+community num is 0.697596
+set |V| to 234589
+|V| =  234589, |E| = 2031101
+preprocessing used 0.16 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 214153
+active_vertices(1) = 73587
+active_vertices(2) = 14259
+active_vertices(3) = 3648
+active_vertices(4) = 1456
+active_vertices(5) = 593
+active_vertices(6) = 425
+active_vertices(7) = 481
+active_vertices(8) = 489
+active_vertices(9) = 243
+active_vertices(10) = 161
+active_vertices(11) = 464
+active_vertices(12) = 655
+active_vertices(13) = 737
+active_vertices(14) = 529
+active_vertices(15) = 550
+active_vertices(16) = 1053
+active_vertices(17) = 1170
+active_vertices(18) = 520
+active_vertices(19) = 249
+active_vertices(20) = 131
+active_vertices(21) = 18
+active_vertices(22) = 0
+community num is 19081
+community num is 0.750096
+set |V| to 19081
+|V| =  19081, |E| = 303832
+preprocessing used 0.06 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 12066
+active_vertices(1) = 5747
+active_vertices(2) = 2234
+active_vertices(3) = 1063
+active_vertices(4) = 696
+active_vertices(5) = 553
+active_vertices(6) = 599
+active_vertices(7) = 548
+active_vertices(8) = 448
+active_vertices(9) = 427
+active_vertices(10) = 365
+active_vertices(11) = 399
+active_vertices(12) = 397
+active_vertices(13) = 420
+active_vertices(14) = 405
+active_vertices(15) = 341
+active_vertices(16) = 343
+active_vertices(17) = 380
+active_vertices(18) = 383
+active_vertices(19) = 350
+active_vertices(20) = 384
+active_vertices(21) = 395
+active_vertices(22) = 371
+active_vertices(23) = 361
+active_vertices(24) = 378
+active_vertices(25) = 360
+active_vertices(26) = 372
+active_vertices(27) = 378
+active_vertices(28) = 426
+active_vertices(29) = 398
+active_vertices(30) = 380
+active_vertices(31) = 439
+active_vertices(32) = 430
+active_vertices(33) = 460
+active_vertices(34) = 449
+active_vertices(35) = 405
+active_vertices(36) = 429
+active_vertices(37) = 401
+active_vertices(38) = 388
+active_vertices(39) = 353
+active_vertices(40) = 388
+active_vertices(41) = 413
+active_vertices(42) = 140
+active_vertices(43) = 21
+active_vertices(44) = 1
+active_vertices(45) = 0
+community num is 6999
+community num is 0.757274
+set |V| to 6999
+|V| =  6999, |E| = 35708
+preprocessing used 0.00 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 342
+active_vertices(1) = 158
+active_vertices(2) = 92
+active_vertices(3) = 56
+active_vertices(4) = 49
+active_vertices(5) = 44
+active_vertices(6) = 51
+active_vertices(7) = 62
+active_vertices(8) = 54
+active_vertices(9) = 47
+active_vertices(10) = 52
+active_vertices(11) = 64
+active_vertices(12) = 45
+active_vertices(13) = 52
+active_vertices(14) = 34
+active_vertices(15) = 55
+active_vertices(16) = 57
+active_vertices(17) = 48
+active_vertices(18) = 46
+active_vertices(19) = 60
+active_vertices(20) = 32
+active_vertices(21) = 33
+active_vertices(22) = 29
+active_vertices(23) = 25
+active_vertices(24) = 25
+active_vertices(25) = 37
+active_vertices(26) = 46
+active_vertices(27) = 35
+active_vertices(28) = 21
+active_vertices(29) = 11
+active_vertices(30) = 29
+active_vertices(31) = 42
+active_vertices(32) = 45
+active_vertices(33) = 54
+active_vertices(34) = 54
+active_vertices(35) = 50
+active_vertices(36) = 50
+active_vertices(37) = 60
+active_vertices(38) = 70
+active_vertices(39) = 63
+active_vertices(40) = 68
+active_vertices(41) = 64
+active_vertices(42) = 71
+active_vertices(43) = 84
+active_vertices(44) = 26
+active_vertices(45) = 32
+active_vertices(46) = 44
+active_vertices(47) = 49
+active_vertices(48) = 42
+active_vertices(49) = 52
+active_vertices(50) = 60
+active_vertices(51) = 61
+active_vertices(52) = 63
+active_vertices(53) = 60
+active_vertices(54) = 48
+active_vertices(55) = 60
+active_vertices(56) = 54
+active_vertices(57) = 50
+active_vertices(58) = 67
+active_vertices(59) = 78
+active_vertices(60) = 66
+active_vertices(61) = 53
+active_vertices(62) = 56
+active_vertices(63) = 64
+active_vertices(64) = 64
+active_vertices(65) = 65
+active_vertices(66) = 58
+active_vertices(67) = 65
+active_vertices(68) = 76
+active_vertices(69) = 78
+active_vertices(70) = 92
+active_vertices(71) = 71
+active_vertices(72) = 57
+active_vertices(73) = 63
+active_vertices(74) = 74
+active_vertices(75) = 69
+active_vertices(76) = 73
+active_vertices(77) = 60
+active_vertices(78) = 24
+active_vertices(79) = 64
+active_vertices(80) = 71
+active_vertices(81) = 69
+active_vertices(82) = 75
+active_vertices(83) = 86
+active_vertices(84) = 80
+active_vertices(85) = 97
+active_vertices(86) = 78
+active_vertices(87) = 90
+active_vertices(88) = 79
+active_vertices(89) = 80
+active_vertices(90) = 89
+active_vertices(91) = 89
+active_vertices(92) = 88
+active_vertices(93) = 92
+active_vertices(94) = 97
+active_vertices(95) = 77
+active_vertices(96) = 77
+active_vertices(97) = 80
+active_vertices(98) = 83
+active_vertices(99) = 89
+active_vertices(100) = 94
+active_vertices(101) = 102
+active_vertices(102) = 102
+active_vertices(103) = 100
+active_vertices(104) = 100
+active_vertices(105) = 98
+active_vertices(106) = 96
+active_vertices(107) = 98
+active_vertices(108) = 100
+active_vertices(109) = 110
+active_vertices(110) = 109
+active_vertices(111) = 109
+active_vertices(112) = 108
+active_vertices(113) = 106
+active_vertices(114) = 114
+active_vertices(115) = 96
+active_vertices(116) = 104
+active_vertices(117) = 109
+active_vertices(118) = 114
+active_vertices(119) = 115
+active_vertices(120) = 110
+active_vertices(121) = 113
+active_vertices(122) = 119
+active_vertices(123) = 121
+active_vertices(124) = 113
+active_vertices(125) = 104
+active_vertices(126) = 102
+active_vertices(127) = 114
+active_vertices(128) = 121
+active_vertices(129) = 123
+active_vertices(130) = 131
+active_vertices(131) = 118
+active_vertices(132) = 132
+active_vertices(133) = 119
+active_vertices(134) = 131
+active_vertices(135) = 129
+active_vertices(136) = 146
+active_vertices(137) = 142
+active_vertices(138) = 130
+active_vertices(139) = 120
+active_vertices(140) = 116
+active_vertices(141) = 105
+active_vertices(142) = 129
+active_vertices(143) = 124
+active_vertices(144) = 135
+active_vertices(145) = 124
+active_vertices(146) = 129
+active_vertices(147) = 119
+active_vertices(148) = 119
+active_vertices(149) = 127
+active_vertices(150) = 121
+active_vertices(151) = 133
+active_vertices(152) = 118
+active_vertices(153) = 125
+active_vertices(154) = 117
+active_vertices(155) = 57
+active_vertices(156) = 40
+active_vertices(157) = 36
+active_vertices(158) = 19
+active_vertices(159) = 52
+active_vertices(160) = 111
+active_vertices(161) = 20
+active_vertices(162) = 18
+active_vertices(163) = 41
+active_vertices(164) = 48
+active_vertices(165) = 35
+active_vertices(166) = 28
+active_vertices(167) = 21
+active_vertices(168) = 14
+active_vertices(169) = 18
+active_vertices(170) = 29
+active_vertices(171) = 22
+active_vertices(172) = 7
+active_vertices(173) = 6
+active_vertices(174) = 5
+active_vertices(175) = 19
+active_vertices(176) = 33
+active_vertices(177) = 6
+active_vertices(178) = 0
+community num is 6470
+community num is 0.757988
+set |V| to 6470
+|V| =  6470, |E| = 17411
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 6470
+community num is 0.757988
+<====     my_louvain  livejournal     ====>
+set |V| to 0
+|V| = 4847571 |E| = 68993773
+edges loaded into memory
+preprocessing used 5.31 seconds
+m = 68734582.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 4200751
+active_vertices(1) = 2159467
+active_vertices(2) = 850018
+active_vertices(3) = 281365
+active_vertices(4) = 125020
+active_vertices(5) = 70212
+active_vertices(6) = 43830
+active_vertices(7) = 29822
+active_vertices(8) = 21388
+active_vertices(9) = 16363
+active_vertices(10) = 12995
+active_vertices(11) = 10232
+active_vertices(12) = 8626
+active_vertices(13) = 6203
+active_vertices(14) = 4723
+active_vertices(15) = 3856
+active_vertices(16) = 3231
+active_vertices(17) = 2670
+active_vertices(18) = 2198
+active_vertices(19) = 1873
+active_vertices(20) = 1443
+active_vertices(21) = 1124
+active_vertices(22) = 706
+active_vertices(23) = 422
+active_vertices(24) = 276
+active_vertices(25) = 283
+active_vertices(26) = 227
+active_vertices(27) = 167
+active_vertices(28) = 115
+active_vertices(29) = 63
+active_vertices(30) = 30
+active_vertices(31) = 23
+active_vertices(32) = 26
+active_vertices(33) = 12
+active_vertices(34) = 7
+active_vertices(35) = 1
+active_vertices(36) = 0
+community num is 235555
+community num is 0.695753
+set |V| to 235555
+|V| =  235555, |E| = 2095226
+preprocessing used 0.19 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 215939
+active_vertices(1) = 105757
+active_vertices(2) = 23638
+active_vertices(3) = 6040
+active_vertices(4) = 2487
+active_vertices(5) = 955
+active_vertices(6) = 393
+active_vertices(7) = 107
+active_vertices(8) = 21
+active_vertices(9) = 0
+community num is 17585
+community num is 0.752261
+set |V| to 17585
+|V| =  17585, |E| = 279330
+preprocessing used 0.02 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 11282
+active_vertices(1) = 5563
+active_vertices(2) = 1774
+active_vertices(3) = 402
+active_vertices(4) = 90
+active_vertices(5) = 15
+active_vertices(6) = 2
+active_vertices(7) = 0
+community num is 6354
+community num is 0.759758
+set |V| to 6354
+|V| =  6354, |E| = 33014
+preprocessing used 0.01 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 298
+active_vertices(1) = 149
+active_vertices(2) = 70
+active_vertices(3) = 25
+active_vertices(4) = 11
+active_vertices(5) = 17
+active_vertices(6) = 29
+active_vertices(7) = 29
+active_vertices(8) = 30
+active_vertices(9) = 19
+active_vertices(10) = 25
+active_vertices(11) = 27
+active_vertices(12) = 30
+active_vertices(13) = 36
+active_vertices(14) = 36
+active_vertices(15) = 24
+active_vertices(16) = 28
+active_vertices(17) = 13
+active_vertices(18) = 18
+active_vertices(19) = 34
+active_vertices(20) = 46
+active_vertices(21) = 51
+active_vertices(22) = 45
+active_vertices(23) = 40
+active_vertices(24) = 37
+active_vertices(25) = 40
+active_vertices(26) = 44
+active_vertices(27) = 45
+active_vertices(28) = 45
+active_vertices(29) = 46
+active_vertices(30) = 52
+active_vertices(31) = 38
+active_vertices(32) = 46
+active_vertices(33) = 40
+active_vertices(34) = 56
+active_vertices(35) = 54
+active_vertices(36) = 58
+active_vertices(37) = 53
+active_vertices(38) = 61
+active_vertices(39) = 63
+active_vertices(40) = 58
+active_vertices(41) = 54
+active_vertices(42) = 68
+active_vertices(43) = 63
+active_vertices(44) = 64
+active_vertices(45) = 61
+active_vertices(46) = 66
+active_vertices(47) = 65
+active_vertices(48) = 69
+active_vertices(49) = 67
+active_vertices(50) = 70
+active_vertices(51) = 75
+active_vertices(52) = 75
+active_vertices(53) = 73
+active_vertices(54) = 71
+active_vertices(55) = 71
+active_vertices(56) = 74
+active_vertices(57) = 73
+active_vertices(58) = 77
+active_vertices(59) = 78
+active_vertices(60) = 76
+active_vertices(61) = 77
+active_vertices(62) = 76
+active_vertices(63) = 79
+active_vertices(64) = 84
+active_vertices(65) = 92
+active_vertices(66) = 91
+active_vertices(67) = 90
+active_vertices(68) = 89
+active_vertices(69) = 80
+active_vertices(70) = 81
+active_vertices(71) = 81
+active_vertices(72) = 85
+active_vertices(73) = 84
+active_vertices(74) = 90
+active_vertices(75) = 91
+active_vertices(76) = 92
+active_vertices(77) = 92
+active_vertices(78) = 93
+active_vertices(79) = 96
+active_vertices(80) = 92
+active_vertices(81) = 90
+active_vertices(82) = 95
+active_vertices(83) = 99
+active_vertices(84) = 100
+active_vertices(85) = 97
+active_vertices(86) = 106
+active_vertices(87) = 107
+active_vertices(88) = 108
+active_vertices(89) = 114
+active_vertices(90) = 118
+active_vertices(91) = 116
+active_vertices(92) = 111
+active_vertices(93) = 112
+active_vertices(94) = 113
+active_vertices(95) = 109
+active_vertices(96) = 109
+active_vertices(97) = 111
+active_vertices(98) = 106
+active_vertices(99) = 102
+active_vertices(100) = 104
+active_vertices(101) = 110
+active_vertices(102) = 105
+active_vertices(103) = 106
+active_vertices(104) = 117
+active_vertices(105) = 116
+active_vertices(106) = 120
+active_vertices(107) = 115
+active_vertices(108) = 114
+active_vertices(109) = 107
+active_vertices(110) = 128
+active_vertices(111) = 138
+active_vertices(112) = 117
+active_vertices(113) = 113
+active_vertices(114) = 115
+active_vertices(115) = 117
+active_vertices(116) = 52
+active_vertices(117) = 66
+active_vertices(118) = 64
+active_vertices(119) = 21
+active_vertices(120) = 63
+active_vertices(121) = 68
+active_vertices(122) = 78
+active_vertices(123) = 73
+active_vertices(124) = 70
+active_vertices(125) = 61
+active_vertices(126) = 67
+active_vertices(127) = 62
+active_vertices(128) = 70
+active_vertices(129) = 61
+active_vertices(130) = 63
+active_vertices(131) = 38
+active_vertices(132) = 43
+active_vertices(133) = 48
+active_vertices(134) = 56
+active_vertices(135) = 61
+active_vertices(136) = 61
+active_vertices(137) = 43
+active_vertices(138) = 56
+active_vertices(139) = 9
+active_vertices(140) = 18
+active_vertices(141) = 59
+active_vertices(142) = 66
+active_vertices(143) = 74
+active_vertices(144) = 68
+active_vertices(145) = 73
+active_vertices(146) = 75
+active_vertices(147) = 72
+active_vertices(148) = 77
+active_vertices(149) = 84
+active_vertices(150) = 87
+active_vertices(151) = 82
+active_vertices(152) = 78
+active_vertices(153) = 47
+active_vertices(154) = 44
+active_vertices(155) = 58
+active_vertices(156) = 64
+active_vertices(157) = 69
+active_vertices(158) = 55
+active_vertices(159) = 40
+active_vertices(160) = 34
+active_vertices(161) = 25
+active_vertices(162) = 5
+active_vertices(163) = 24
+active_vertices(164) = 25
+active_vertices(165) = 36
+active_vertices(166) = 53
+active_vertices(167) = 54
+active_vertices(168) = 55
+active_vertices(169) = 39
+active_vertices(170) = 31
+active_vertices(171) = 11
+active_vertices(172) = 1
+active_vertices(173) = 0
+community num is 5876
+community num is 0.760395
+set |V| to 5876
+|V| =  5876, |E| = 15862
+preprocessing used 0.04 seconds
+subgraph build over
+m = 68734582.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 5876
+community num is 0.760395
+<====     my_louvain  facebook     ====>
+set |V| to 0
+|V| = 4039 |E| = 88234
+edges loaded into memory
+preprocessing used 0.12 seconds
+m = 88234.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 3776
+active_vertices(1) = 1123
+active_vertices(2) = 292
+active_vertices(3) = 113
+active_vertices(4) = 74
+active_vertices(5) = 37
+active_vertices(6) = 30
+active_vertices(7) = 1
+active_vertices(8) = 0
+community num is 100
+community num is 0.809447
+set |V| to 100
+|V| =  100, |E| = 453
+preprocessing used 0.02 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 81
+active_vertices(1) = 22
+active_vertices(2) = 0
+community num is 18
+community num is 0.834923
+set |V| to 18
+|V| =  18, |E| = 72
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 2
+active_vertices(1) = 0
+community num is 16
+community num is 0.834962
+set |V| to 16
+|V| =  16, |E| = 52
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 16
+community num is 0.834962
+<====     my_louvain  facebook     ====>
+set |V| to 0
+|V| = 4039 |E| = 88234
+edges loaded into memory
+preprocessing used 0.11 seconds
+m = 88234.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 3765
+active_vertices(1) = 1218
+active_vertices(2) = 338
+active_vertices(3) = 90
+active_vertices(4) = 27
+active_vertices(5) = 17
+active_vertices(6) = 18
+active_vertices(7) = 29
+active_vertices(8) = 0
+community num is 95
+community num is 0.812852
+set |V| to 95
+|V| =  95, |E| = 435
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 77
+active_vertices(1) = 8
+active_vertices(2) = 1
+active_vertices(3) = 0
+community num is 19
+community num is 0.833891
+set |V| to 19
+|V| =  19, |E| = 75
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 3
+active_vertices(1) = 0
+community num is 16
+community num is 0.834934
+set |V| to 16
+|V| =  16, |E| = 52
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 16
+community num is 0.834934
+<====     my_louvain  facebook     ====>
+set |V| to 0
+|V| = 4039 |E| = 88234
+edges loaded into memory
+preprocessing used 0.09 seconds
+m = 88234.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 3775
+active_vertices(1) = 1122
+active_vertices(2) = 286
+active_vertices(3) = 70
+active_vertices(4) = 43
+active_vertices(5) = 48
+active_vertices(6) = 20
+active_vertices(7) = 2
+active_vertices(8) = 0
+community num is 97
+community num is 0.808489
+set |V| to 97
+|V| =  97, |E| = 440
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 79
+active_vertices(1) = 8
+active_vertices(2) = 0
+community num is 19
+community num is 0.832709
+set |V| to 19
+|V| =  19, |E| = 77
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 3
+active_vertices(1) = 0
+community num is 16
+community num is 0.834227
+set |V| to 16
+|V| =  16, |E| = 53
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 16
+community num is 0.834227
+<====     my_louvain  facebook     ====>
+set |V| to 0
+|V| = 4039 |E| = 88234
+edges loaded into memory
+preprocessing used 0.12 seconds
+m = 88234.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 3795
+active_vertices(1) = 1071
+active_vertices(2) = 252
+active_vertices(3) = 81
+active_vertices(4) = 37
+active_vertices(5) = 26
+active_vertices(6) = 19
+active_vertices(7) = 0
+community num is 97
+community num is 0.812627
+set |V| to 97
+|V| =  97, |E| = 446
+preprocessing used 0.04 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 80
+active_vertices(1) = 11
+active_vertices(2) = 0
+community num is 19
+community num is 0.833711
+set |V| to 19
+|V| =  19, |E| = 75
+preprocessing used 0.04 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 3
+active_vertices(1) = 0
+community num is 16
+community num is 0.834753
+set |V| to 16
+|V| =  16, |E| = 53
+preprocessing used 0.05 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 16
+community num is 0.834753
+<====     my_louvain  facebook     ====>
+set |V| to 0
+|V| = 4039 |E| = 88234
+edges loaded into memory
+preprocessing used 0.10 seconds
+m = 88234.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 3760
+active_vertices(1) = 1206
+active_vertices(2) = 313
+active_vertices(3) = 70
+active_vertices(4) = 23
+active_vertices(5) = 25
+active_vertices(6) = 23
+active_vertices(7) = 2
+active_vertices(8) = 0
+community num is 106
+community num is 0.807078
+set |V| to 106
+|V| =  106, |E| = 495
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 88
+active_vertices(1) = 19
+active_vertices(2) = 1
+active_vertices(3) = 0
+community num is 19
+community num is 0.833422
+set |V| to 19
+|V| =  19, |E| = 78
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 3
+active_vertices(1) = 0
+community num is 16
+community num is 0.834941
+set |V| to 16
+|V| =  16, |E| = 53
+preprocessing used 0.00 seconds
+subgraph build over
+m = 88234.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 16
+community num is 0.834941
+set |V| to 0
+|V| = 41652225 |E| = 725758851
+edges loaded into memory
+preprocessing used 59.69 seconds
+set |V| to 510640
+|V| =  510640, |E| = 3871492
+preprocessing used 0.58 seconds
+set |V| to 20538
+|V| =  20538, |E| = 90747
+preprocessing used 0.05 seconds
+set |V| to 13264
+|V| =  13264, |E| = 36854
+preprocessing used 0.01 seconds
+set |V| to 12208
+|V| =  12208, |E| = 30319
+preprocessing used 0.04 seconds
+<====     my_louvain  twitter-half     ====>
+set |V| to 0
+|V| = 41652225 |E| = 725758851
+edges loaded into memory
+preprocessing used 57.10 seconds
+m = 725758786.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 28819766
+active_vertices(1) = 14629507
+active_vertices(2) = 10544081
+active_vertices(3) = 6260021
+active_vertices(4) = 3528030
+active_vertices(5) = 1950409
+active_vertices(6) = 1190722
+active_vertices(7) = 736836
+active_vertices(8) = 449579
+active_vertices(9) = 295057
+active_vertices(10) = 217917
+active_vertices(11) = 185767
+active_vertices(12) = 156758
+active_vertices(13) = 117791
+active_vertices(14) = 107254
+active_vertices(15) = 78080
+active_vertices(16) = 55802
+active_vertices(17) = 49017
+active_vertices(18) = 34806
+active_vertices(19) = 23848
+active_vertices(20) = 17556
+active_vertices(21) = 15466
+active_vertices(22) = 12526
+active_vertices(23) = 12372
+active_vertices(24) = 11100
+active_vertices(25) = 10242
+active_vertices(26) = 8893
+active_vertices(27) = 8178
+active_vertices(28) = 7071
+active_vertices(29) = 6568
+active_vertices(30) = 6705
+active_vertices(31) = 8991
+active_vertices(32) = 8024
+active_vertices(33) = 6758
+active_vertices(34) = 5354
+active_vertices(35) = 4476
+active_vertices(36) = 3947
+active_vertices(37) = 3620
+active_vertices(38) = 2892
+active_vertices(39) = 2626
+active_vertices(40) = 2152
+active_vertices(41) = 1562
+active_vertices(42) = 1720
+active_vertices(43) = 1529
+active_vertices(44) = 1273
+active_vertices(45) = 808
+active_vertices(46) = 386
+active_vertices(47) = 238
+active_vertices(48) = 182
+active_vertices(49) = 76
+active_vertices(50) = 76
+active_vertices(51) = 80
+active_vertices(52) = 52
+active_vertices(53) = 7
+active_vertices(54) = 0
+community num is 516514
+community num is 0.470650
+set |V| to 516514
+|V| =  516514, |E| = 3864457
+preprocessing used 0.56 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 487290
+active_vertices(1) = 373511
+active_vertices(2) = 224653
+active_vertices(3) = 33413
+active_vertices(4) = 2986
+active_vertices(5) = 441
+active_vertices(6) = 102
+active_vertices(7) = 30
+active_vertices(8) = 7
+active_vertices(9) = 1
+active_vertices(10) = 0
+community num is 24816
+community num is 0.478126
+set |V| to 24816
+|V| =  24816, |E| = 117831
+preprocessing used 0.07 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 9589
+active_vertices(1) = 2827
+active_vertices(2) = 1629
+active_vertices(3) = 3394
+active_vertices(4) = 2810
+active_vertices(5) = 3390
+active_vertices(6) = 3285
+active_vertices(7) = 3292
+active_vertices(8) = 3274
+active_vertices(9) = 3291
+active_vertices(10) = 3275
+active_vertices(11) = 3293
+active_vertices(12) = 2941
+active_vertices(13) = 3382
+active_vertices(14) = 3463
+active_vertices(15) = 3593
+active_vertices(16) = 2761
+active_vertices(17) = 1675
+active_vertices(18) = 3021
+active_vertices(19) = 3111
+active_vertices(20) = 3269
+active_vertices(21) = 3503
+active_vertices(22) = 2678
+active_vertices(23) = 3261
+active_vertices(24) = 4219
+active_vertices(25) = 3681
+active_vertices(26) = 2066
+active_vertices(27) = 2378
+active_vertices(28) = 3827
+active_vertices(29) = 3735
+active_vertices(30) = 2854
+active_vertices(31) = 3215
+active_vertices(32) = 3235
+active_vertices(33) = 4321
+active_vertices(34) = 4842
+active_vertices(35) = 4650
+active_vertices(36) = 3746
+active_vertices(37) = 2853
+active_vertices(38) = 2843
+active_vertices(39) = 2847
+active_vertices(40) = 3213
+active_vertices(41) = 3211
+active_vertices(42) = 3212
+active_vertices(43) = 3210
+active_vertices(44) = 3212
+active_vertices(45) = 3210
+active_vertices(46) = 3213
+active_vertices(47) = 3213
+active_vertices(48) = 3212
+active_vertices(49) = 3212
+active_vertices(50) = 3215
+active_vertices(51) = 3214
+active_vertices(52) = 3211
+active_vertices(53) = 3213
+active_vertices(54) = 3213
+active_vertices(55) = 3212
+active_vertices(56) = 3194
+active_vertices(57) = 4229
+active_vertices(58) = 4654
+active_vertices(59) = 3737
+active_vertices(60) = 2098
+active_vertices(61) = 2859
+active_vertices(62) = 2953
+active_vertices(63) = 3404
+active_vertices(64) = 2818
+active_vertices(65) = 3394
+active_vertices(66) = 3195
+active_vertices(67) = 3253
+active_vertices(68) = 3321
+active_vertices(69) = 3290
+active_vertices(70) = 3304
+active_vertices(71) = 2940
+active_vertices(72) = 3389
+active_vertices(73) = 3491
+active_vertices(74) = 3603
+active_vertices(75) = 3426
+active_vertices(76) = 3438
+active_vertices(77) = 3257
+active_vertices(78) = 2936
+active_vertices(79) = 3385
+active_vertices(80) = 3495
+active_vertices(81) = 2947
+active_vertices(82) = 1664
+active_vertices(83) = 3393
+active_vertices(84) = 3295
+active_vertices(85) = 3300
+active_vertices(86) = 2940
+active_vertices(87) = 1668
+active_vertices(88) = 3392
+active_vertices(89) = 2819
+active_vertices(90) = 1741
+active_vertices(91) = 3366
+active_vertices(92) = 2798
+active_vertices(93) = 3377
+active_vertices(94) = 3465
+active_vertices(95) = 2948
+active_vertices(96) = 1703
+active_vertices(97) = 3018
+active_vertices(98) = 2154
+active_vertices(99) = 2930
+active_vertices(100) = 3689
+active_vertices(101) = 2776
+active_vertices(102) = 1674
+active_vertices(103) = 2985
+active_vertices(104) = 79
+active_vertices(105) = 3
+active_vertices(106) = 0
+community num is 15189
+community num is 0.478313
+set |V| to 15189
+|V| =  15189, |E| = 43354
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 165
+active_vertices(1) = 31
+active_vertices(2) = 1
+active_vertices(3) = 0
+community num is 15040
+community num is 0.478314
+set |V| to 15040
+|V| =  15040, |E| = 40262
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 10
+active_vertices(1) = 0
+community num is 15034
+community num is 0.478314
+set |V| to 15034
+|V| =  15034, |E| = 40035
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 15034
+community num is 0.478314
+<====     my_louvain  twitter-half     ====>
+set |V| to 0
+|V| = 41652225 |E| = 725758851
+edges loaded into memory
+preprocessing used 57.04 seconds
+m = 725758786.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 28818733
+active_vertices(1) = 14404135
+active_vertices(2) = 10405857
+active_vertices(3) = 6060857
+active_vertices(4) = 3736627
+active_vertices(5) = 2058010
+active_vertices(6) = 1202649
+active_vertices(7) = 776296
+active_vertices(8) = 493073
+active_vertices(9) = 304509
+active_vertices(10) = 207974
+active_vertices(11) = 141083
+active_vertices(12) = 126669
+active_vertices(13) = 64087
+active_vertices(14) = 43012
+active_vertices(15) = 32286
+active_vertices(16) = 22828
+active_vertices(17) = 15516
+active_vertices(18) = 12084
+active_vertices(19) = 9014
+active_vertices(20) = 6258
+active_vertices(21) = 4690
+active_vertices(22) = 4657
+active_vertices(23) = 4666
+active_vertices(24) = 4302
+active_vertices(25) = 4548
+active_vertices(26) = 3848
+active_vertices(27) = 3105
+active_vertices(28) = 2961
+active_vertices(29) = 2786
+active_vertices(30) = 2830
+active_vertices(31) = 2695
+active_vertices(32) = 2606
+active_vertices(33) = 3594
+active_vertices(34) = 2355
+active_vertices(35) = 1774
+active_vertices(36) = 1887
+active_vertices(37) = 1920
+active_vertices(38) = 1375
+active_vertices(39) = 676
+active_vertices(40) = 184
+active_vertices(41) = 101
+active_vertices(42) = 109
+active_vertices(43) = 44
+active_vertices(44) = 36
+active_vertices(45) = 8
+active_vertices(46) = 0
+community num is 560975
+community num is 0.473127
+set |V| to 560975
+|V| =  560975, |E| = 4446816
+preprocessing used 0.62 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 527389
+active_vertices(1) = 380365
+active_vertices(2) = 254727
+active_vertices(3) = 52881
+active_vertices(4) = 82932
+active_vertices(5) = 102841
+active_vertices(6) = 100744
+active_vertices(7) = 99265
+active_vertices(8) = 99034
+active_vertices(9) = 61549
+active_vertices(10) = 23788
+active_vertices(11) = 3459
+active_vertices(12) = 386
+active_vertices(13) = 41
+active_vertices(14) = 6
+active_vertices(15) = 0
+community num is 28058
+community num is 0.481474
+set |V| to 28058
+|V| =  28058, |E| = 130749
+preprocessing used 0.06 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 11067
+active_vertices(1) = 5466
+active_vertices(2) = 4955
+active_vertices(3) = 3317
+active_vertices(4) = 3328
+active_vertices(5) = 3344
+active_vertices(6) = 1598
+active_vertices(7) = 4130
+active_vertices(8) = 2183
+active_vertices(9) = 4065
+active_vertices(10) = 6589
+active_vertices(11) = 3979
+active_vertices(12) = 4166
+active_vertices(13) = 3973
+active_vertices(14) = 4094
+active_vertices(15) = 3839
+active_vertices(16) = 3855
+active_vertices(17) = 3902
+active_vertices(18) = 4149
+active_vertices(19) = 4051
+active_vertices(20) = 4220
+active_vertices(21) = 3789
+active_vertices(22) = 4516
+active_vertices(23) = 3996
+active_vertices(24) = 3783
+active_vertices(25) = 1908
+active_vertices(26) = 3550
+active_vertices(27) = 4397
+active_vertices(28) = 4471
+active_vertices(29) = 4363
+active_vertices(30) = 4350
+active_vertices(31) = 4137
+active_vertices(32) = 4003
+active_vertices(33) = 4311
+active_vertices(34) = 2583
+active_vertices(35) = 4020
+active_vertices(36) = 4600
+active_vertices(37) = 4004
+active_vertices(38) = 1910
+active_vertices(39) = 3387
+active_vertices(40) = 3339
+active_vertices(41) = 3386
+active_vertices(42) = 3328
+active_vertices(43) = 1402
+active_vertices(44) = 3349
+active_vertices(45) = 3370
+active_vertices(46) = 1406
+active_vertices(47) = 3096
+active_vertices(48) = 341
+active_vertices(49) = 1
+active_vertices(50) = 0
+community num is 16867
+community num is 0.481527
+set |V| to 16867
+|V| =  16867, |E| = 46090
+preprocessing used 0.01 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 158
+active_vertices(1) = 39
+active_vertices(2) = 5
+active_vertices(3) = 2
+active_vertices(4) = 0
+community num is 16720
+community num is 0.481528
+set |V| to 16720
+|V| =  16720, |E| = 44152
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 7
+active_vertices(1) = 0
+community num is 16716
+community num is 0.481528
+set |V| to 16716
+|V| =  16716, |E| = 43944
+preprocessing used 0.01 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 16716
+community num is 0.481528
+<====     my_louvain  twitter-half     ====>
+set |V| to 0
+|V| = 41652225 |E| = 725758851
+edges loaded into memory
+preprocessing used 58.18 seconds
+m = 725758786.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 28818190
+active_vertices(1) = 14689831
+active_vertices(2) = 10689089
+active_vertices(3) = 6364078
+active_vertices(4) = 3706225
+active_vertices(5) = 1988484
+active_vertices(6) = 1150408
+active_vertices(7) = 785888
+active_vertices(8) = 452353
+active_vertices(9) = 305212
+active_vertices(10) = 230550
+active_vertices(11) = 200063
+active_vertices(12) = 162142
+active_vertices(13) = 121212
+active_vertices(14) = 104255
+active_vertices(15) = 93846
+active_vertices(16) = 105956
+active_vertices(17) = 164689
+active_vertices(18) = 99733
+active_vertices(19) = 109936
+active_vertices(20) = 120997
+active_vertices(21) = 170253
+active_vertices(22) = 179827
+active_vertices(23) = 139306
+active_vertices(24) = 103199
+active_vertices(25) = 86271
+active_vertices(26) = 82803
+active_vertices(27) = 55872
+active_vertices(28) = 46284
+active_vertices(29) = 54782
+active_vertices(30) = 33184
+active_vertices(31) = 20513
+active_vertices(32) = 15407
+active_vertices(33) = 10263
+active_vertices(34) = 6666
+active_vertices(35) = 4907
+active_vertices(36) = 4538
+active_vertices(37) = 4112
+active_vertices(38) = 3216
+active_vertices(39) = 3078
+active_vertices(40) = 2997
+active_vertices(41) = 3924
+active_vertices(42) = 3416
+active_vertices(43) = 2676
+active_vertices(44) = 1949
+active_vertices(45) = 1339
+active_vertices(46) = 1732
+active_vertices(47) = 1617
+active_vertices(48) = 1587
+active_vertices(49) = 2406
+active_vertices(50) = 2552
+active_vertices(51) = 2621
+active_vertices(52) = 2830
+active_vertices(53) = 2254
+active_vertices(54) = 2404
+active_vertices(55) = 1642
+active_vertices(56) = 1190
+active_vertices(57) = 734
+active_vertices(58) = 597
+active_vertices(59) = 277
+active_vertices(60) = 232
+active_vertices(61) = 361
+active_vertices(62) = 292
+active_vertices(63) = 230
+active_vertices(64) = 163
+active_vertices(65) = 232
+active_vertices(66) = 425
+active_vertices(67) = 329
+active_vertices(68) = 270
+active_vertices(69) = 272
+active_vertices(70) = 229
+active_vertices(71) = 264
+active_vertices(72) = 196
+active_vertices(73) = 122
+active_vertices(74) = 128
+active_vertices(75) = 77
+active_vertices(76) = 36
+active_vertices(77) = 10
+active_vertices(78) = 5
+active_vertices(79) = 0
+community num is 492376
+community num is 0.470388
+set |V| to 492376
+|V| =  492376, |E| = 3616723
+preprocessing used 0.55 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 467227
+active_vertices(1) = 335114
+active_vertices(2) = 171633
+active_vertices(3) = 23105
+active_vertices(4) = 102881
+active_vertices(5) = 18610
+active_vertices(6) = 1936
+active_vertices(7) = 267
+active_vertices(8) = 38
+active_vertices(9) = 7
+active_vertices(10) = 2
+active_vertices(11) = 1
+active_vertices(12) = 1
+active_vertices(13) = 0
+community num is 21843
+community num is 0.477502
+set |V| to 21843
+|V| =  21843, |E| = 95192
+preprocessing used 0.03 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 8052
+active_vertices(1) = 3919
+active_vertices(2) = 977
+active_vertices(3) = 923
+active_vertices(4) = 3379
+active_vertices(5) = 28
+active_vertices(6) = 0
+community num is 13805
+community num is 0.477540
+set |V| to 13805
+|V| =  13805, |E| = 38379
+preprocessing used 0.05 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 134
+active_vertices(1) = 45
+active_vertices(2) = 16
+active_vertices(3) = 9
+active_vertices(4) = 22
+active_vertices(5) = 26
+active_vertices(6) = 15
+active_vertices(7) = 18
+active_vertices(8) = 17
+active_vertices(9) = 20
+active_vertices(10) = 21
+active_vertices(11) = 24
+active_vertices(12) = 29
+active_vertices(13) = 38
+active_vertices(14) = 46
+active_vertices(15) = 45
+active_vertices(16) = 47
+active_vertices(17) = 35
+active_vertices(18) = 30
+active_vertices(19) = 40
+active_vertices(20) = 41
+active_vertices(21) = 14
+active_vertices(22) = 20
+active_vertices(23) = 16
+active_vertices(24) = 21
+active_vertices(25) = 28
+active_vertices(26) = 49
+active_vertices(27) = 41
+active_vertices(28) = 38
+active_vertices(29) = 23
+active_vertices(30) = 36
+active_vertices(31) = 64
+active_vertices(32) = 63
+active_vertices(33) = 52
+active_vertices(34) = 59
+active_vertices(35) = 84
+active_vertices(36) = 84
+active_vertices(37) = 71
+active_vertices(38) = 50
+active_vertices(39) = 65
+active_vertices(40) = 87
+active_vertices(41) = 84
+active_vertices(42) = 63
+active_vertices(43) = 55
+active_vertices(44) = 44
+active_vertices(45) = 47
+active_vertices(46) = 50
+active_vertices(47) = 44
+active_vertices(48) = 43
+active_vertices(49) = 38
+active_vertices(50) = 41
+active_vertices(51) = 36
+active_vertices(52) = 42
+active_vertices(53) = 47
+active_vertices(54) = 51
+active_vertices(55) = 60
+active_vertices(56) = 65
+active_vertices(57) = 56
+active_vertices(58) = 55
+active_vertices(59) = 58
+active_vertices(60) = 63
+active_vertices(61) = 83
+active_vertices(62) = 88
+active_vertices(63) = 89
+active_vertices(64) = 94
+active_vertices(65) = 91
+active_vertices(66) = 85
+active_vertices(67) = 84
+active_vertices(68) = 92
+active_vertices(69) = 86
+active_vertices(70) = 72
+active_vertices(71) = 76
+active_vertices(72) = 76
+active_vertices(73) = 78
+active_vertices(74) = 85
+active_vertices(75) = 89
+active_vertices(76) = 90
+active_vertices(77) = 91
+active_vertices(78) = 91
+active_vertices(79) = 90
+active_vertices(80) = 89
+active_vertices(81) = 103
+active_vertices(82) = 89
+active_vertices(83) = 92
+active_vertices(84) = 100
+active_vertices(85) = 101
+active_vertices(86) = 107
+active_vertices(87) = 118
+active_vertices(88) = 120
+active_vertices(89) = 126
+active_vertices(90) = 120
+active_vertices(91) = 118
+active_vertices(92) = 114
+active_vertices(93) = 122
+active_vertices(94) = 124
+active_vertices(95) = 136
+active_vertices(96) = 138
+active_vertices(97) = 133
+active_vertices(98) = 144
+active_vertices(99) = 148
+active_vertices(100) = 144
+active_vertices(101) = 141
+active_vertices(102) = 146
+active_vertices(103) = 145
+active_vertices(104) = 145
+active_vertices(105) = 148
+active_vertices(106) = 155
+active_vertices(107) = 153
+active_vertices(108) = 155
+active_vertices(109) = 158
+active_vertices(110) = 162
+active_vertices(111) = 162
+active_vertices(112) = 163
+active_vertices(113) = 175
+active_vertices(114) = 180
+active_vertices(115) = 175
+active_vertices(116) = 186
+active_vertices(117) = 185
+active_vertices(118) = 191
+active_vertices(119) = 190
+active_vertices(120) = 193
+active_vertices(121) = 183
+active_vertices(122) = 173
+active_vertices(123) = 85
+active_vertices(124) = 181
+active_vertices(125) = 171
+active_vertices(126) = 162
+active_vertices(127) = 186
+active_vertices(128) = 122
+active_vertices(129) = 132
+active_vertices(130) = 109
+active_vertices(131) = 119
+active_vertices(132) = 110
+active_vertices(133) = 107
+active_vertices(134) = 91
+active_vertices(135) = 94
+active_vertices(136) = 93
+active_vertices(137) = 99
+active_vertices(138) = 106
+active_vertices(139) = 113
+active_vertices(140) = 108
+active_vertices(141) = 107
+active_vertices(142) = 109
+active_vertices(143) = 113
+active_vertices(144) = 115
+active_vertices(145) = 100
+active_vertices(146) = 110
+active_vertices(147) = 108
+active_vertices(148) = 105
+active_vertices(149) = 106
+active_vertices(150) = 125
+active_vertices(151) = 122
+active_vertices(152) = 131
+active_vertices(153) = 115
+active_vertices(154) = 143
+active_vertices(155) = 161
+active_vertices(156) = 154
+active_vertices(157) = 151
+active_vertices(158) = 147
+active_vertices(159) = 146
+active_vertices(160) = 159
+active_vertices(161) = 185
+active_vertices(162) = 206
+active_vertices(163) = 200
+active_vertices(164) = 207
+active_vertices(165) = 208
+active_vertices(166) = 207
+active_vertices(167) = 208
+active_vertices(168) = 207
+active_vertices(169) = 212
+active_vertices(170) = 218
+active_vertices(171) = 219
+active_vertices(172) = 225
+active_vertices(173) = 223
+active_vertices(174) = 227
+active_vertices(175) = 230
+active_vertices(176) = 230
+active_vertices(177) = 240
+active_vertices(178) = 225
+active_vertices(179) = 214
+active_vertices(180) = 218
+active_vertices(181) = 228
+active_vertices(182) = 234
+active_vertices(183) = 213
+active_vertices(184) = 215
+active_vertices(185) = 226
+active_vertices(186) = 214
+active_vertices(187) = 227
+active_vertices(188) = 233
+active_vertices(189) = 253
+active_vertices(190) = 258
+active_vertices(191) = 264
+active_vertices(192) = 247
+active_vertices(193) = 262
+active_vertices(194) = 261
+active_vertices(195) = 217
+active_vertices(196) = 217
+active_vertices(197) = 198
+active_vertices(198) = 227
+active_vertices(199) = 233
+active_vertices(200) = 231
+active_vertices(201) = 246
+active_vertices(202) = 211
+active_vertices(203) = 202
+active_vertices(204) = 203
+active_vertices(205) = 207
+active_vertices(206) = 213
+active_vertices(207) = 218
+active_vertices(208) = 226
+active_vertices(209) = 206
+active_vertices(210) = 206
+active_vertices(211) = 207
+active_vertices(212) = 233
+active_vertices(213) = 228
+active_vertices(214) = 226
+active_vertices(215) = 221
+active_vertices(216) = 217
+active_vertices(217) = 225
+active_vertices(218) = 232
+active_vertices(219) = 234
+active_vertices(220) = 237
+active_vertices(221) = 231
+active_vertices(222) = 241
+active_vertices(223) = 245
+active_vertices(224) = 248
+active_vertices(225) = 247
+active_vertices(226) = 253
+active_vertices(227) = 242
+active_vertices(228) = 251
+active_vertices(229) = 252
+active_vertices(230) = 260
+active_vertices(231) = 261
+active_vertices(232) = 262
+active_vertices(233) = 264
+active_vertices(234) = 252
+active_vertices(235) = 245
+active_vertices(236) = 254
+active_vertices(237) = 249
+active_vertices(238) = 262
+active_vertices(239) = 253
+active_vertices(240) = 270
+active_vertices(241) = 283
+active_vertices(242) = 270
+active_vertices(243) = 267
+active_vertices(244) = 270
+active_vertices(245) = 272
+active_vertices(246) = 277
+active_vertices(247) = 271
+active_vertices(248) = 279
+active_vertices(249) = 274
+active_vertices(250) = 285
+active_vertices(251) = 293
+active_vertices(252) = 317
+active_vertices(253) = 311
+active_vertices(254) = 301
+active_vertices(255) = 290
+active_vertices(256) = 288
+active_vertices(257) = 284
+active_vertices(258) = 285
+active_vertices(259) = 295
+active_vertices(260) = 319
+active_vertices(261) = 296
+active_vertices(262) = 309
+active_vertices(263) = 324
+active_vertices(264) = 315
+active_vertices(265) = 329
+active_vertices(266) = 334
+active_vertices(267) = 320
+active_vertices(268) = 323
+active_vertices(269) = 316
+active_vertices(270) = 330
+active_vertices(271) = 339
+active_vertices(272) = 349
+active_vertices(273) = 351
+active_vertices(274) = 361
+active_vertices(275) = 341
+active_vertices(276) = 272
+active_vertices(277) = 226
+active_vertices(278) = 205
+active_vertices(279) = 212
+active_vertices(280) = 205
+active_vertices(281) = 207
+active_vertices(282) = 213
+active_vertices(283) = 217
+active_vertices(284) = 209
+active_vertices(285) = 225
+active_vertices(286) = 200
+active_vertices(287) = 224
+active_vertices(288) = 209
+active_vertices(289) = 228
+active_vertices(290) = 220
+active_vertices(291) = 241
+active_vertices(292) = 249
+active_vertices(293) = 279
+active_vertices(294) = 264
+active_vertices(295) = 300
+active_vertices(296) = 256
+active_vertices(297) = 295
+active_vertices(298) = 275
+active_vertices(299) = 262
+active_vertices(300) = 260
+active_vertices(301) = 282
+active_vertices(302) = 255
+active_vertices(303) = 260
+active_vertices(304) = 260
+active_vertices(305) = 275
+active_vertices(306) = 271
+active_vertices(307) = 269
+active_vertices(308) = 265
+active_vertices(309) = 271
+active_vertices(310) = 292
+active_vertices(311) = 304
+active_vertices(312) = 287
+active_vertices(313) = 282
+active_vertices(314) = 287
+active_vertices(315) = 282
+active_vertices(316) = 291
+active_vertices(317) = 283
+active_vertices(318) = 295
+active_vertices(319) = 297
+active_vertices(320) = 294
+active_vertices(321) = 296
+active_vertices(322) = 302
+active_vertices(323) = 293
+active_vertices(324) = 289
+active_vertices(325) = 285
+active_vertices(326) = 292
+active_vertices(327) = 291
+active_vertices(328) = 306
+active_vertices(329) = 286
+active_vertices(330) = 278
+active_vertices(331) = 279
+active_vertices(332) = 285
+active_vertices(333) = 286
+active_vertices(334) = 297
+active_vertices(335) = 312
+active_vertices(336) = 294
+active_vertices(337) = 284
+active_vertices(338) = 277
+active_vertices(339) = 292
+active_vertices(340) = 312
+active_vertices(341) = 321
+active_vertices(342) = 300
+active_vertices(343) = 310
+active_vertices(344) = 313
+active_vertices(345) = 313
+active_vertices(346) = 314
+active_vertices(347) = 302
+active_vertices(348) = 306
+active_vertices(349) = 301
+active_vertices(350) = 296
+active_vertices(351) = 292
+active_vertices(352) = 294
+active_vertices(353) = 290
+active_vertices(354) = 274
+active_vertices(355) = 273
+active_vertices(356) = 261
+active_vertices(357) = 269
+active_vertices(358) = 260
+active_vertices(359) = 273
+active_vertices(360) = 260
+active_vertices(361) = 275
+active_vertices(362) = 279
+active_vertices(363) = 320
+active_vertices(364) = 326
+active_vertices(365) = 322
+active_vertices(366) = 320
+active_vertices(367) = 331
+active_vertices(368) = 315
+active_vertices(369) = 316
+active_vertices(370) = 290
+active_vertices(371) = 304
+active_vertices(372) = 296
+active_vertices(373) = 305
+active_vertices(374) = 277
+active_vertices(375) = 301
+active_vertices(376) = 275
+active_vertices(377) = 204
+active_vertices(378) = 260
+active_vertices(379) = 210
+active_vertices(380) = 257
+active_vertices(381) = 260
+active_vertices(382) = 261
+active_vertices(383) = 288
+active_vertices(384) = 244
+active_vertices(385) = 257
+active_vertices(386) = 271
+active_vertices(387) = 209
+active_vertices(388) = 264
+active_vertices(389) = 268
+active_vertices(390) = 267
+active_vertices(391) = 265
+active_vertices(392) = 244
+active_vertices(393) = 236
+active_vertices(394) = 254
+active_vertices(395) = 256
+active_vertices(396) = 238
+active_vertices(397) = 257
+active_vertices(398) = 273
+active_vertices(399) = 249
+active_vertices(400) = 277
+active_vertices(401) = 251
+active_vertices(402) = 239
+active_vertices(403) = 272
+active_vertices(404) = 258
+active_vertices(405) = 267
+active_vertices(406) = 266
+active_vertices(407) = 297
+active_vertices(408) = 272
+active_vertices(409) = 276
+active_vertices(410) = 245
+active_vertices(411) = 303
+active_vertices(412) = 304
+active_vertices(413) = 217
+active_vertices(414) = 276
+active_vertices(415) = 263
+active_vertices(416) = 272
+active_vertices(417) = 198
+active_vertices(418) = 193
+active_vertices(419) = 258
+active_vertices(420) = 214
+active_vertices(421) = 297
+active_vertices(422) = 229
+active_vertices(423) = 258
+active_vertices(424) = 257
+active_vertices(425) = 274
+active_vertices(426) = 177
+active_vertices(427) = 246
+active_vertices(428) = 287
+active_vertices(429) = 286
+active_vertices(430) = 102
+active_vertices(431) = 166
+active_vertices(432) = 134
+active_vertices(433) = 188
+active_vertices(434) = 152
+active_vertices(435) = 169
+active_vertices(436) = 159
+active_vertices(437) = 142
+active_vertices(438) = 169
+active_vertices(439) = 140
+active_vertices(440) = 175
+active_vertices(441) = 172
+active_vertices(442) = 230
+active_vertices(443) = 193
+active_vertices(444) = 194
+active_vertices(445) = 160
+active_vertices(446) = 212
+active_vertices(447) = 215
+active_vertices(448) = 226
+active_vertices(449) = 187
+active_vertices(450) = 201
+active_vertices(451) = 176
+active_vertices(452) = 209
+active_vertices(453) = 193
+active_vertices(454) = 233
+active_vertices(455) = 221
+active_vertices(456) = 227
+active_vertices(457) = 227
+active_vertices(458) = 245
+active_vertices(459) = 219
+active_vertices(460) = 242
+active_vertices(461) = 232
+active_vertices(462) = 223
+active_vertices(463) = 214
+active_vertices(464) = 228
+active_vertices(465) = 231
+active_vertices(466) = 257
+active_vertices(467) = 215
+active_vertices(468) = 225
+active_vertices(469) = 177
+active_vertices(470) = 214
+active_vertices(471) = 213
+active_vertices(472) = 217
+active_vertices(473) = 245
+active_vertices(474) = 248
+active_vertices(475) = 220
+active_vertices(476) = 249
+active_vertices(477) = 257
+active_vertices(478) = 257
+active_vertices(479) = 246
+active_vertices(480) = 211
+active_vertices(481) = 222
+active_vertices(482) = 209
+active_vertices(483) = 200
+active_vertices(484) = 199
+active_vertices(485) = 205
+active_vertices(486) = 237
+active_vertices(487) = 249
+active_vertices(488) = 268
+active_vertices(489) = 261
+active_vertices(490) = 271
+active_vertices(491) = 243
+active_vertices(492) = 245
+active_vertices(493) = 250
+active_vertices(494) = 237
+active_vertices(495) = 246
+active_vertices(496) = 228
+active_vertices(497) = 214
+active_vertices(498) = 225
+active_vertices(499) = 248
+active_vertices(500) = 234
+active_vertices(501) = 239
+active_vertices(502) = 208
+active_vertices(503) = 199
+active_vertices(504) = 198
+active_vertices(505) = 219
+active_vertices(506) = 198
+active_vertices(507) = 210
+active_vertices(508) = 200
+active_vertices(509) = 215
+active_vertices(510) = 225
+active_vertices(511) = 233
+active_vertices(512) = 237
+active_vertices(513) = 249
+active_vertices(514) = 243
+active_vertices(515) = 267
+active_vertices(516) = 246
+active_vertices(517) = 282
+active_vertices(518) = 244
+active_vertices(519) = 239
+active_vertices(520) = 239
+active_vertices(521) = 238
+active_vertices(522) = 238
+active_vertices(523) = 231
+active_vertices(524) = 246
+active_vertices(525) = 269
+active_vertices(526) = 239
+active_vertices(527) = 268
+active_vertices(528) = 244
+active_vertices(529) = 251
+active_vertices(530) = 227
+active_vertices(531) = 239
+active_vertices(532) = 277
+active_vertices(533) = 244
+active_vertices(534) = 277
+active_vertices(535) = 243
+active_vertices(536) = 279
+active_vertices(537) = 257
+active_vertices(538) = 273
+active_vertices(539) = 245
+active_vertices(540) = 235
+active_vertices(541) = 240
+active_vertices(542) = 222
+active_vertices(543) = 254
+active_vertices(544) = 269
+active_vertices(545) = 242
+active_vertices(546) = 243
+active_vertices(547) = 281
+active_vertices(548) = 238
+active_vertices(549) = 247
+active_vertices(550) = 229
+active_vertices(551) = 252
+active_vertices(552) = 233
+active_vertices(553) = 237
+active_vertices(554) = 229
+active_vertices(555) = 229
+active_vertices(556) = 234
+active_vertices(557) = 239
+active_vertices(558) = 240
+active_vertices(559) = 231
+active_vertices(560) = 244
+active_vertices(561) = 240
+active_vertices(562) = 261
+active_vertices(563) = 277
+active_vertices(564) = 245
+active_vertices(565) = 231
+active_vertices(566) = 238
+active_vertices(567) = 244
+active_vertices(568) = 250
+active_vertices(569) = 235
+active_vertices(570) = 243
+active_vertices(571) = 235
+active_vertices(572) = 241
+active_vertices(573) = 233
+active_vertices(574) = 248
+active_vertices(575) = 242
+active_vertices(576) = 263
+active_vertices(577) = 235
+active_vertices(578) = 250
+active_vertices(579) = 236
+active_vertices(580) = 252
+active_vertices(581) = 249
+active_vertices(582) = 236
+active_vertices(583) = 286
+active_vertices(584) = 241
+active_vertices(585) = 258
+active_vertices(586) = 258
+active_vertices(587) = 241
+active_vertices(588) = 269
+active_vertices(589) = 268
+active_vertices(590) = 274
+active_vertices(591) = 274
+active_vertices(592) = 265
+active_vertices(593) = 247
+active_vertices(594) = 258
+active_vertices(595) = 248
+active_vertices(596) = 270
+active_vertices(597) = 277
+active_vertices(598) = 291
+active_vertices(599) = 297
+active_vertices(600) = 319
+active_vertices(601) = 300
+active_vertices(602) = 348
+active_vertices(603) = 218
+active_vertices(604) = 272
+active_vertices(605) = 260
+active_vertices(606) = 254
+active_vertices(607) = 177
+active_vertices(608) = 223
+active_vertices(609) = 199
+active_vertices(610) = 227
+active_vertices(611) = 221
+active_vertices(612) = 209
+active_vertices(613) = 201
+active_vertices(614) = 223
+active_vertices(615) = 200
+active_vertices(616) = 218
+active_vertices(617) = 175
+active_vertices(618) = 246
+active_vertices(619) = 233
+active_vertices(620) = 218
+active_vertices(621) = 212
+active_vertices(622) = 222
+active_vertices(623) = 159
+active_vertices(624) = 182
+active_vertices(625) = 203
+active_vertices(626) = 157
+active_vertices(627) = 210
+active_vertices(628) = 206
+active_vertices(629) = 224
+active_vertices(630) = 183
+active_vertices(631) = 224
+active_vertices(632) = 250
+active_vertices(633) = 206
+active_vertices(634) = 194
+active_vertices(635) = 197
+active_vertices(636) = 211
+active_vertices(637) = 210
+active_vertices(638) = 211
+active_vertices(639) = 214
+active_vertices(640) = 204
+active_vertices(641) = 216
+active_vertices(642) = 206
+active_vertices(643) = 208
+active_vertices(644) = 211
+active_vertices(645) = 219
+active_vertices(646) = 211
+active_vertices(647) = 231
+active_vertices(648) = 221
+active_vertices(649) = 239
+active_vertices(650) = 225
+active_vertices(651) = 228
+active_vertices(652) = 212
+active_vertices(653) = 233
+active_vertices(654) = 213
+active_vertices(655) = 237
+active_vertices(656) = 235
+active_vertices(657) = 233
+active_vertices(658) = 248
+active_vertices(659) = 275
+active_vertices(660) = 264
+active_vertices(661) = 241
+active_vertices(662) = 224
+active_vertices(663) = 258
+active_vertices(664) = 245
+active_vertices(665) = 236
+active_vertices(666) = 228
+active_vertices(667) = 236
+active_vertices(668) = 240
+active_vertices(669) = 262
+active_vertices(670) = 261
+active_vertices(671) = 241
+active_vertices(672) = 225
+active_vertices(673) = 265
+active_vertices(674) = 220
+active_vertices(675) = 256
+active_vertices(676) = 224
+active_vertices(677) = 215
+active_vertices(678) = 216
+active_vertices(679) = 227
+active_vertices(680) = 209
+active_vertices(681) = 235
+active_vertices(682) = 212
+active_vertices(683) = 223
+active_vertices(684) = 224
+active_vertices(685) = 223
+active_vertices(686) = 236
+active_vertices(687) = 221
+active_vertices(688) = 225
+active_vertices(689) = 224
+active_vertices(690) = 222
+active_vertices(691) = 217
+active_vertices(692) = 210
+active_vertices(693) = 205
+active_vertices(694) = 208
+active_vertices(695) = 209
+active_vertices(696) = 219
+active_vertices(697) = 232
+active_vertices(698) = 247
+active_vertices(699) = 212
+active_vertices(700) = 235
+active_vertices(701) = 211
+active_vertices(702) = 233
+active_vertices(703) = 213
+active_vertices(704) = 237
+active_vertices(705) = 212
+active_vertices(706) = 234
+active_vertices(707) = 214
+active_vertices(708) = 234
+active_vertices(709) = 211
+active_vertices(710) = 234
+active_vertices(711) = 210
+active_vertices(712) = 222
+active_vertices(713) = 210
+active_vertices(714) = 227
+active_vertices(715) = 205
+active_vertices(716) = 228
+active_vertices(717) = 205
+active_vertices(718) = 230
+active_vertices(719) = 223
+active_vertices(720) = 252
+active_vertices(721) = 202
+active_vertices(722) = 246
+active_vertices(723) = 227
+active_vertices(724) = 259
+active_vertices(725) = 234
+active_vertices(726) = 270
+active_vertices(727) = 236
+active_vertices(728) = 256
+active_vertices(729) = 237
+active_vertices(730) = 269
+active_vertices(731) = 242
+active_vertices(732) = 265
+active_vertices(733) = 237
+active_vertices(734) = 265
+active_vertices(735) = 228
+active_vertices(736) = 271
+active_vertices(737) = 252
+active_vertices(738) = 290
+active_vertices(739) = 285
+active_vertices(740) = 305
+active_vertices(741) = 288
+active_vertices(742) = 315
+active_vertices(743) = 291
+active_vertices(744) = 301
+active_vertices(745) = 286
+active_vertices(746) = 326
+active_vertices(747) = 296
+active_vertices(748) = 319
+active_vertices(749) = 298
+active_vertices(750) = 318
+active_vertices(751) = 316
+active_vertices(752) = 315
+active_vertices(753) = 296
+active_vertices(754) = 325
+active_vertices(755) = 310
+active_vertices(756) = 313
+active_vertices(757) = 313
+active_vertices(758) = 323
+active_vertices(759) = 316
+active_vertices(760) = 325
+active_vertices(761) = 297
+active_vertices(762) = 308
+active_vertices(763) = 305
+active_vertices(764) = 315
+active_vertices(765) = 299
+active_vertices(766) = 313
+active_vertices(767) = 293
+active_vertices(768) = 283
+active_vertices(769) = 272
+active_vertices(770) = 292
+active_vertices(771) = 262
+active_vertices(772) = 284
+active_vertices(773) = 256
+active_vertices(774) = 284
+active_vertices(775) = 249
+active_vertices(776) = 243
+active_vertices(777) = 190
+active_vertices(778) = 248
+active_vertices(779) = 236
+active_vertices(780) = 252
+active_vertices(781) = 201
+active_vertices(782) = 233
+active_vertices(783) = 186
+active_vertices(784) = 236
+active_vertices(785) = 171
+active_vertices(786) = 243
+active_vertices(787) = 188
+active_vertices(788) = 251
+active_vertices(789) = 208
+active_vertices(790) = 254
+active_vertices(791) = 259
+active_vertices(792) = 185
+active_vertices(793) = 253
+active_vertices(794) = 179
+active_vertices(795) = 268
+active_vertices(796) = 184
+active_vertices(797) = 244
+active_vertices(798) = 189
+active_vertices(799) = 244
+active_vertices(800) = 188
+active_vertices(801) = 239
+active_vertices(802) = 238
+active_vertices(803) = 232
+active_vertices(804) = 211
+active_vertices(805) = 261
+active_vertices(806) = 145
+active_vertices(807) = 233
+active_vertices(808) = 235
+active_vertices(809) = 221
+active_vertices(810) = 217
+active_vertices(811) = 215
+active_vertices(812) = 211
+active_vertices(813) = 234
+active_vertices(814) = 199
+active_vertices(815) = 266
+active_vertices(816) = 246
+active_vertices(817) = 70
+active_vertices(818) = 132
+active_vertices(819) = 84
+active_vertices(820) = 136
+active_vertices(821) = 95
+active_vertices(822) = 123
+active_vertices(823) = 96
+active_vertices(824) = 125
+active_vertices(825) = 112
+active_vertices(826) = 111
+active_vertices(827) = 116
+active_vertices(828) = 128
+active_vertices(829) = 111
+active_vertices(830) = 142
+active_vertices(831) = 139
+active_vertices(832) = 148
+active_vertices(833) = 155
+active_vertices(834) = 130
+active_vertices(835) = 154
+active_vertices(836) = 168
+active_vertices(837) = 91
+active_vertices(838) = 142
+active_vertices(839) = 108
+active_vertices(840) = 145
+active_vertices(841) = 144
+active_vertices(842) = 125
+active_vertices(843) = 144
+active_vertices(844) = 129
+active_vertices(845) = 141
+active_vertices(846) = 128
+active_vertices(847) = 151
+active_vertices(848) = 142
+active_vertices(849) = 165
+active_vertices(850) = 147
+active_vertices(851) = 163
+active_vertices(852) = 145
+active_vertices(853) = 165
+active_vertices(854) = 145
+active_vertices(855) = 145
+active_vertices(856) = 148
+active_vertices(857) = 162
+active_vertices(858) = 150
+active_vertices(859) = 164
+active_vertices(860) = 155
+active_vertices(861) = 157
+active_vertices(862) = 153
+active_vertices(863) = 170
+active_vertices(864) = 165
+active_vertices(865) = 175
+active_vertices(866) = 152
+active_vertices(867) = 177
+active_vertices(868) = 162
+active_vertices(869) = 177
+active_vertices(870) = 164
+active_vertices(871) = 181
+active_vertices(872) = 169
+active_vertices(873) = 185
+active_vertices(874) = 167
+active_vertices(875) = 182
+active_vertices(876) = 171
+active_vertices(877) = 189
+active_vertices(878) = 185
+active_vertices(879) = 192
+active_vertices(880) = 176
+active_vertices(881) = 189
+active_vertices(882) = 180
+active_vertices(883) = 192
+active_vertices(884) = 191
+active_vertices(885) = 195
+active_vertices(886) = 192
+active_vertices(887) = 209
+active_vertices(888) = 200
+active_vertices(889) = 212
+active_vertices(890) = 193
+active_vertices(891) = 195
+active_vertices(892) = 182
+active_vertices(893) = 172
+active_vertices(894) = 181
+active_vertices(895) = 214
+active_vertices(896) = 145
+active_vertices(897) = 179
+active_vertices(898) = 194
+active_vertices(899) = 106
+active_vertices(900) = 182
+active_vertices(901) = 129
+active_vertices(902) = 167
+active_vertices(903) = 82
+active_vertices(904) = 132
+active_vertices(905) = 103
+active_vertices(906) = 158
+active_vertices(907) = 144
+active_vertices(908) = 110
+active_vertices(909) = 116
+active_vertices(910) = 132
+active_vertices(911) = 109
+active_vertices(912) = 137
+active_vertices(913) = 133
+active_vertices(914) = 137
+active_vertices(915) = 132
+active_vertices(916) = 134
+active_vertices(917) = 116
+active_vertices(918) = 156
+active_vertices(919) = 145
+active_vertices(920) = 172
+active_vertices(921) = 158
+active_vertices(922) = 175
+active_vertices(923) = 152
+active_vertices(924) = 182
+active_vertices(925) = 164
+active_vertices(926) = 181
+active_vertices(927) = 134
+active_vertices(928) = 158
+active_vertices(929) = 179
+active_vertices(930) = 100
+active_vertices(931) = 124
+active_vertices(932) = 104
+active_vertices(933) = 127
+active_vertices(934) = 128
+active_vertices(935) = 117
+active_vertices(936) = 124
+active_vertices(937) = 126
+active_vertices(938) = 118
+active_vertices(939) = 126
+active_vertices(940) = 128
+active_vertices(941) = 159
+active_vertices(942) = 167
+active_vertices(943) = 120
+active_vertices(944) = 132
+active_vertices(945) = 127
+active_vertices(946) = 123
+active_vertices(947) = 123
+active_vertices(948) = 108
+active_vertices(949) = 101
+active_vertices(950) = 107
+active_vertices(951) = 101
+active_vertices(952) = 95
+active_vertices(953) = 88
+active_vertices(954) = 109
+active_vertices(955) = 93
+active_vertices(956) = 111
+active_vertices(957) = 98
+active_vertices(958) = 105
+active_vertices(959) = 120
+active_vertices(960) = 119
+active_vertices(961) = 120
+active_vertices(962) = 106
+active_vertices(963) = 119
+active_vertices(964) = 108
+active_vertices(965) = 109
+active_vertices(966) = 95
+active_vertices(967) = 111
+active_vertices(968) = 104
+active_vertices(969) = 118
+active_vertices(970) = 101
+active_vertices(971) = 115
+active_vertices(972) = 103
+active_vertices(973) = 118
+active_vertices(974) = 112
+active_vertices(975) = 127
+active_vertices(976) = 118
+active_vertices(977) = 124
+active_vertices(978) = 124
+active_vertices(979) = 114
+active_vertices(980) = 121
+active_vertices(981) = 113
+active_vertices(982) = 123
+active_vertices(983) = 115
+active_vertices(984) = 128
+active_vertices(985) = 127
+active_vertices(986) = 139
+active_vertices(987) = 119
+active_vertices(988) = 147
+active_vertices(989) = 113
+active_vertices(990) = 145
+active_vertices(991) = 113
+active_vertices(992) = 140
+active_vertices(993) = 112
+active_vertices(994) = 138
+active_vertices(995) = 107
+active_vertices(996) = 138
+active_vertices(997) = 110
+active_vertices(998) = 143
+active_vertices(999) = 117
+active_vertices(1000) = 147
+active_vertices(1001) = 112
+active_vertices(1002) = 148
+active_vertices(1003) = 137
+active_vertices(1004) = 137
+active_vertices(1005) = 126
+active_vertices(1006) = 129
+active_vertices(1007) = 131
+active_vertices(1008) = 143
+active_vertices(1009) = 145
+active_vertices(1010) = 145
+active_vertices(1011) = 135
+active_vertices(1012) = 140
+active_vertices(1013) = 136
+active_vertices(1014) = 142
+active_vertices(1015) = 140
+active_vertices(1016) = 161
+active_vertices(1017) = 168
+active_vertices(1018) = 197
+active_vertices(1019) = 180
+active_vertices(1020) = 171
+active_vertices(1021) = 133
+active_vertices(1022) = 146
+active_vertices(1023) = 133
+active_vertices(1024) = 123
+active_vertices(1025) = 140
+active_vertices(1026) = 129
+active_vertices(1027) = 182
+active_vertices(1028) = 174
+active_vertices(1029) = 156
+active_vertices(1030) = 156
+active_vertices(1031) = 154
+active_vertices(1032) = 155
+active_vertices(1033) = 167
+active_vertices(1034) = 185
+active_vertices(1035) = 162
+active_vertices(1036) = 143
+active_vertices(1037) = 172
+active_vertices(1038) = 181
+active_vertices(1039) = 165
+active_vertices(1040) = 174
+active_vertices(1041) = 181
+active_vertices(1042) = 175
+active_vertices(1043) = 177
+active_vertices(1044) = 148
+active_vertices(1045) = 182
+active_vertices(1046) = 164
+active_vertices(1047) = 183
+active_vertices(1048) = 170
+active_vertices(1049) = 179
+active_vertices(1050) = 171
+active_vertices(1051) = 175
+active_vertices(1052) = 177
+active_vertices(1053) = 174
+active_vertices(1054) = 167
+active_vertices(1055) = 185
+active_vertices(1056) = 180
+active_vertices(1057) = 190
+active_vertices(1058) = 174
+active_vertices(1059) = 199
+active_vertices(1060) = 191
+active_vertices(1061) = 201
+active_vertices(1062) = 164
+active_vertices(1063) = 201
+active_vertices(1064) = 195
+active_vertices(1065) = 212
+active_vertices(1066) = 168
+active_vertices(1067) = 194
+active_vertices(1068) = 174
+active_vertices(1069) = 183
+active_vertices(1070) = 179
+active_vertices(1071) = 182
+active_vertices(1072) = 190
+active_vertices(1073) = 222
+active_vertices(1074) = 194
+active_vertices(1075) = 209
+active_vertices(1076) = 223
+active_vertices(1077) = 189
+active_vertices(1078) = 194
+active_vertices(1079) = 231
+active_vertices(1080) = 179
+active_vertices(1081) = 244
+active_vertices(1082) = 229
+active_vertices(1083) = 213
+active_vertices(1084) = 232
+active_vertices(1085) = 214
+active_vertices(1086) = 215
+active_vertices(1087) = 213
+active_vertices(1088) = 216
+active_vertices(1089) = 213
+active_vertices(1090) = 213
+active_vertices(1091) = 221
+active_vertices(1092) = 212
+active_vertices(1093) = 201
+active_vertices(1094) = 195
+active_vertices(1095) = 223
+active_vertices(1096) = 103
+active_vertices(1097) = 146
+active_vertices(1098) = 129
+active_vertices(1099) = 175
+active_vertices(1100) = 131
+active_vertices(1101) = 189
+active_vertices(1102) = 148
+active_vertices(1103) = 202
+active_vertices(1104) = 121
+active_vertices(1105) = 175
+active_vertices(1106) = 132
+active_vertices(1107) = 175
+active_vertices(1108) = 200
+active_vertices(1109) = 199
+active_vertices(1110) = 205
+active_vertices(1111) = 134
+active_vertices(1112) = 126
+active_vertices(1113) = 120
+active_vertices(1114) = 117
+active_vertices(1115) = 113
+active_vertices(1116) = 87
+active_vertices(1117) = 94
+active_vertices(1118) = 98
+active_vertices(1119) = 103
+active_vertices(1120) = 99
+active_vertices(1121) = 114
+active_vertices(1122) = 78
+active_vertices(1123) = 93
+active_vertices(1124) = 102
+active_vertices(1125) = 101
+active_vertices(1126) = 90
+active_vertices(1127) = 80
+active_vertices(1128) = 136
+active_vertices(1129) = 109
+active_vertices(1130) = 130
+active_vertices(1131) = 107
+active_vertices(1132) = 102
+active_vertices(1133) = 99
+active_vertices(1134) = 120
+active_vertices(1135) = 104
+active_vertices(1136) = 114
+active_vertices(1137) = 106
+active_vertices(1138) = 115
+active_vertices(1139) = 111
+active_vertices(1140) = 127
+active_vertices(1141) = 122
+active_vertices(1142) = 137
+active_vertices(1143) = 137
+active_vertices(1144) = 129
+active_vertices(1145) = 129
+active_vertices(1146) = 138
+active_vertices(1147) = 139
+active_vertices(1148) = 172
+active_vertices(1149) = 116
+active_vertices(1150) = 118
+active_vertices(1151) = 141
+active_vertices(1152) = 171
+active_vertices(1153) = 158
+active_vertices(1154) = 158
+active_vertices(1155) = 125
+active_vertices(1156) = 187
+active_vertices(1157) = 145
+active_vertices(1158) = 155
+active_vertices(1159) = 209
+active_vertices(1160) = 166
+active_vertices(1161) = 187
+active_vertices(1162) = 137
+active_vertices(1163) = 143
+active_vertices(1164) = 120
+active_vertices(1165) = 130
+active_vertices(1166) = 98
+active_vertices(1167) = 126
+active_vertices(1168) = 142
+active_vertices(1169) = 123
+active_vertices(1170) = 107
+active_vertices(1171) = 123
+active_vertices(1172) = 108
+active_vertices(1173) = 122
+active_vertices(1174) = 113
+active_vertices(1175) = 132
+active_vertices(1176) = 118
+active_vertices(1177) = 125
+active_vertices(1178) = 145
+active_vertices(1179) = 140
+active_vertices(1180) = 136
+active_vertices(1181) = 151
+active_vertices(1182) = 133
+active_vertices(1183) = 154
+active_vertices(1184) = 150
+active_vertices(1185) = 158
+active_vertices(1186) = 155
+active_vertices(1187) = 159
+active_vertices(1188) = 139
+active_vertices(1189) = 159
+active_vertices(1190) = 134
+active_vertices(1191) = 167
+active_vertices(1192) = 148
+active_vertices(1193) = 173
+active_vertices(1194) = 181
+active_vertices(1195) = 167
+active_vertices(1196) = 165
+active_vertices(1197) = 166
+active_vertices(1198) = 166
+active_vertices(1199) = 153
+active_vertices(1200) = 148
+active_vertices(1201) = 178
+active_vertices(1202) = 145
+active_vertices(1203) = 167
+active_vertices(1204) = 155
+active_vertices(1205) = 167
+active_vertices(1206) = 170
+active_vertices(1207) = 154
+active_vertices(1208) = 176
+active_vertices(1209) = 188
+active_vertices(1210) = 175
+active_vertices(1211) = 182
+active_vertices(1212) = 192
+active_vertices(1213) = 185
+active_vertices(1214) = 195
+active_vertices(1215) = 166
+active_vertices(1216) = 189
+active_vertices(1217) = 149
+active_vertices(1218) = 133
+active_vertices(1219) = 147
+active_vertices(1220) = 145
+active_vertices(1221) = 187
+active_vertices(1222) = 168
+active_vertices(1223) = 175
+active_vertices(1224) = 167
+active_vertices(1225) = 179
+active_vertices(1226) = 155
+active_vertices(1227) = 196
+active_vertices(1228) = 176
+active_vertices(1229) = 193
+active_vertices(1230) = 178
+active_vertices(1231) = 206
+active_vertices(1232) = 188
+active_vertices(1233) = 218
+active_vertices(1234) = 205
+active_vertices(1235) = 158
+active_vertices(1236) = 160
+active_vertices(1237) = 136
+active_vertices(1238) = 148
+active_vertices(1239) = 154
+active_vertices(1240) = 169
+active_vertices(1241) = 161
+active_vertices(1242) = 143
+active_vertices(1243) = 174
+active_vertices(1244) = 175
+active_vertices(1245) = 162
+active_vertices(1246) = 144
+active_vertices(1247) = 153
+active_vertices(1248) = 176
+active_vertices(1249) = 171
+active_vertices(1250) = 167
+active_vertices(1251) = 157
+active_vertices(1252) = 200
+active_vertices(1253) = 168
+active_vertices(1254) = 186
+active_vertices(1255) = 157
+active_vertices(1256) = 161
+active_vertices(1257) = 201
+active_vertices(1258) = 157
+active_vertices(1259) = 189
+active_vertices(1260) = 170
+active_vertices(1261) = 202
+active_vertices(1262) = 164
+active_vertices(1263) = 181
+active_vertices(1264) = 186
+active_vertices(1265) = 190
+active_vertices(1266) = 218
+active_vertices(1267) = 189
+active_vertices(1268) = 184
+active_vertices(1269) = 175
+active_vertices(1270) = 191
+active_vertices(1271) = 182
+active_vertices(1272) = 200
+active_vertices(1273) = 208
+active_vertices(1274) = 185
+active_vertices(1275) = 200
+active_vertices(1276) = 172
+active_vertices(1277) = 209
+active_vertices(1278) = 167
+active_vertices(1279) = 201
+active_vertices(1280) = 198
+active_vertices(1281) = 236
+active_vertices(1282) = 203
+active_vertices(1283) = 221
+active_vertices(1284) = 219
+active_vertices(1285) = 211
+active_vertices(1286) = 190
+active_vertices(1287) = 173
+active_vertices(1288) = 150
+active_vertices(1289) = 199
+active_vertices(1290) = 85
+active_vertices(1291) = 179
+active_vertices(1292) = 109
+active_vertices(1293) = 153
+active_vertices(1294) = 88
+active_vertices(1295) = 155
+active_vertices(1296) = 184
+active_vertices(1297) = 150
+active_vertices(1298) = 158
+active_vertices(1299) = 140
+active_vertices(1300) = 154
+active_vertices(1301) = 113
+active_vertices(1302) = 155
+active_vertices(1303) = 134
+active_vertices(1304) = 127
+active_vertices(1305) = 140
+active_vertices(1306) = 125
+active_vertices(1307) = 128
+active_vertices(1308) = 157
+active_vertices(1309) = 149
+active_vertices(1310) = 162
+active_vertices(1311) = 168
+active_vertices(1312) = 153
+active_vertices(1313) = 119
+active_vertices(1314) = 163
+active_vertices(1315) = 153
+active_vertices(1316) = 177
+active_vertices(1317) = 162
+active_vertices(1318) = 134
+active_vertices(1319) = 164
+active_vertices(1320) = 145
+active_vertices(1321) = 162
+active_vertices(1322) = 166
+active_vertices(1323) = 194
+active_vertices(1324) = 199
+active_vertices(1325) = 188
+active_vertices(1326) = 169
+active_vertices(1327) = 149
+active_vertices(1328) = 203
+active_vertices(1329) = 173
+active_vertices(1330) = 141
+active_vertices(1331) = 150
+active_vertices(1332) = 144
+active_vertices(1333) = 134
+active_vertices(1334) = 144
+active_vertices(1335) = 145
+active_vertices(1336) = 143
+active_vertices(1337) = 140
+active_vertices(1338) = 147
+active_vertices(1339) = 137
+active_vertices(1340) = 180
+active_vertices(1341) = 125
+active_vertices(1342) = 144
+active_vertices(1343) = 125
+active_vertices(1344) = 152
+active_vertices(1345) = 170
+active_vertices(1346) = 145
+active_vertices(1347) = 177
+active_vertices(1348) = 39
+active_vertices(1349) = 76
+active_vertices(1350) = 49
+active_vertices(1351) = 45
+active_vertices(1352) = 62
+active_vertices(1353) = 60
+active_vertices(1354) = 60
+active_vertices(1355) = 36
+active_vertices(1356) = 45
+active_vertices(1357) = 55
+active_vertices(1358) = 49
+active_vertices(1359) = 50
+active_vertices(1360) = 55
+active_vertices(1361) = 67
+active_vertices(1362) = 67
+active_vertices(1363) = 81
+active_vertices(1364) = 77
+active_vertices(1365) = 89
+active_vertices(1366) = 79
+active_vertices(1367) = 77
+active_vertices(1368) = 66
+active_vertices(1369) = 65
+active_vertices(1370) = 70
+active_vertices(1371) = 71
+active_vertices(1372) = 83
+active_vertices(1373) = 121
+active_vertices(1374) = 142
+active_vertices(1375) = 142
+active_vertices(1376) = 146
+active_vertices(1377) = 128
+active_vertices(1378) = 144
+active_vertices(1379) = 151
+active_vertices(1380) = 152
+active_vertices(1381) = 137
+active_vertices(1382) = 147
+active_vertices(1383) = 184
+active_vertices(1384) = 196
+active_vertices(1385) = 211
+active_vertices(1386) = 234
+active_vertices(1387) = 205
+active_vertices(1388) = 239
+active_vertices(1389) = 249
+active_vertices(1390) = 228
+active_vertices(1391) = 266
+active_vertices(1392) = 247
+active_vertices(1393) = 237
+active_vertices(1394) = 263
+active_vertices(1395) = 238
+active_vertices(1396) = 270
+active_vertices(1397) = 267
+active_vertices(1398) = 140
+active_vertices(1399) = 121
+active_vertices(1400) = 125
+active_vertices(1401) = 123
+active_vertices(1402) = 113
+active_vertices(1403) = 114
+active_vertices(1404) = 109
+active_vertices(1405) = 107
+active_vertices(1406) = 116
+active_vertices(1407) = 132
+active_vertices(1408) = 134
+active_vertices(1409) = 114
+active_vertices(1410) = 107
+active_vertices(1411) = 121
+active_vertices(1412) = 129
+active_vertices(1413) = 118
+active_vertices(1414) = 76
+active_vertices(1415) = 107
+active_vertices(1416) = 116
+active_vertices(1417) = 136
+active_vertices(1418) = 116
+active_vertices(1419) = 112
+active_vertices(1420) = 144
+active_vertices(1421) = 134
+active_vertices(1422) = 119
+active_vertices(1423) = 107
+active_vertices(1424) = 110
+active_vertices(1425) = 126
+active_vertices(1426) = 119
+active_vertices(1427) = 113
+active_vertices(1428) = 137
+active_vertices(1429) = 118
+active_vertices(1430) = 134
+active_vertices(1431) = 121
+active_vertices(1432) = 179
+active_vertices(1433) = 131
+active_vertices(1434) = 171
+active_vertices(1435) = 111
+active_vertices(1436) = 149
+active_vertices(1437) = 110
+active_vertices(1438) = 119
+active_vertices(1439) = 113
+active_vertices(1440) = 118
+active_vertices(1441) = 106
+active_vertices(1442) = 153
+active_vertices(1443) = 111
+active_vertices(1444) = 113
+active_vertices(1445) = 119
+active_vertices(1446) = 103
+active_vertices(1447) = 100
+active_vertices(1448) = 106
+active_vertices(1449) = 95
+active_vertices(1450) = 114
+active_vertices(1451) = 97
+active_vertices(1452) = 109
+active_vertices(1453) = 87
+active_vertices(1454) = 131
+active_vertices(1455) = 87
+active_vertices(1456) = 117
+active_vertices(1457) = 117
+active_vertices(1458) = 114
+active_vertices(1459) = 130
+active_vertices(1460) = 110
+active_vertices(1461) = 165
+active_vertices(1462) = 159
+active_vertices(1463) = 120
+active_vertices(1464) = 125
+active_vertices(1465) = 144
+active_vertices(1466) = 87
+active_vertices(1467) = 138
+active_vertices(1468) = 152
+active_vertices(1469) = 112
+active_vertices(1470) = 104
+active_vertices(1471) = 102
+active_vertices(1472) = 68
+active_vertices(1473) = 60
+active_vertices(1474) = 80
+active_vertices(1475) = 43
+active_vertices(1476) = 79
+active_vertices(1477) = 55
+active_vertices(1478) = 87
+active_vertices(1479) = 59
+active_vertices(1480) = 68
+active_vertices(1481) = 86
+active_vertices(1482) = 100
+active_vertices(1483) = 77
+active_vertices(1484) = 50
+active_vertices(1485) = 60
+active_vertices(1486) = 73
+active_vertices(1487) = 78
+active_vertices(1488) = 70
+active_vertices(1489) = 84
+active_vertices(1490) = 83
+active_vertices(1491) = 52
+active_vertices(1492) = 84
+active_vertices(1493) = 64
+active_vertices(1494) = 84
+active_vertices(1495) = 93
+active_vertices(1496) = 109
+active_vertices(1497) = 74
+active_vertices(1498) = 73
+active_vertices(1499) = 75
+active_vertices(1500) = 70
+active_vertices(1501) = 87
+active_vertices(1502) = 76
+active_vertices(1503) = 50
+active_vertices(1504) = 84
+active_vertices(1505) = 82
+active_vertices(1506) = 79
+active_vertices(1507) = 66
+active_vertices(1508) = 21
+active_vertices(1509) = 33
+active_vertices(1510) = 29
+active_vertices(1511) = 11
+active_vertices(1512) = 31
+active_vertices(1513) = 27
+active_vertices(1514) = 25
+active_vertices(1515) = 38
+active_vertices(1516) = 38
+active_vertices(1517) = 32
+active_vertices(1518) = 30
+active_vertices(1519) = 44
+active_vertices(1520) = 35
+active_vertices(1521) = 74
+active_vertices(1522) = 40
+active_vertices(1523) = 46
+active_vertices(1524) = 43
+active_vertices(1525) = 45
+active_vertices(1526) = 79
+active_vertices(1527) = 87
+active_vertices(1528) = 95
+active_vertices(1529) = 113
+active_vertices(1530) = 117
+active_vertices(1531) = 116
+active_vertices(1532) = 98
+active_vertices(1533) = 128
+active_vertices(1534) = 135
+active_vertices(1535) = 125
+active_vertices(1536) = 154
+active_vertices(1537) = 150
+active_vertices(1538) = 135
+active_vertices(1539) = 155
+active_vertices(1540) = 138
+active_vertices(1541) = 148
+active_vertices(1542) = 136
+active_vertices(1543) = 143
+active_vertices(1544) = 138
+active_vertices(1545) = 149
+active_vertices(1546) = 144
+active_vertices(1547) = 131
+active_vertices(1548) = 134
+active_vertices(1549) = 165
+active_vertices(1550) = 162
+active_vertices(1551) = 162
+active_vertices(1552) = 161
+active_vertices(1553) = 165
+active_vertices(1554) = 180
+active_vertices(1555) = 144
+active_vertices(1556) = 183
+active_vertices(1557) = 152
+active_vertices(1558) = 152
+active_vertices(1559) = 172
+active_vertices(1560) = 210
+active_vertices(1561) = 164
+active_vertices(1562) = 208
+active_vertices(1563) = 173
+active_vertices(1564) = 153
+active_vertices(1565) = 170
+active_vertices(1566) = 181
+active_vertices(1567) = 166
+active_vertices(1568) = 194
+active_vertices(1569) = 172
+active_vertices(1570) = 190
+active_vertices(1571) = 170
+active_vertices(1572) = 188
+active_vertices(1573) = 228
+active_vertices(1574) = 160
+active_vertices(1575) = 168
+active_vertices(1576) = 160
+active_vertices(1577) = 192
+active_vertices(1578) = 175
+active_vertices(1579) = 191
+active_vertices(1580) = 181
+active_vertices(1581) = 192
+active_vertices(1582) = 202
+active_vertices(1583) = 189
+active_vertices(1584) = 196
+active_vertices(1585) = 189
+active_vertices(1586) = 164
+active_vertices(1587) = 200
+active_vertices(1588) = 166
+active_vertices(1589) = 174
+active_vertices(1590) = 155
+active_vertices(1591) = 185
+active_vertices(1592) = 176
+active_vertices(1593) = 186
+active_vertices(1594) = 172
+active_vertices(1595) = 176
+active_vertices(1596) = 170
+active_vertices(1597) = 195
+active_vertices(1598) = 165
+active_vertices(1599) = 172
+active_vertices(1600) = 150
+active_vertices(1601) = 183
+active_vertices(1602) = 167
+active_vertices(1603) = 175
+active_vertices(1604) = 164
+active_vertices(1605) = 185
+active_vertices(1606) = 173
+active_vertices(1607) = 191
+active_vertices(1608) = 162
+active_vertices(1609) = 180
+active_vertices(1610) = 169
+active_vertices(1611) = 186
+active_vertices(1612) = 160
+active_vertices(1613) = 175
+active_vertices(1614) = 165
+active_vertices(1615) = 193
+active_vertices(1616) = 164
+active_vertices(1617) = 182
+active_vertices(1618) = 156
+active_vertices(1619) = 189
+active_vertices(1620) = 199
+active_vertices(1621) = 193
+active_vertices(1622) = 220
+active_vertices(1623) = 232
+active_vertices(1624) = 215
+active_vertices(1625) = 191
+active_vertices(1626) = 191
+active_vertices(1627) = 226
+active_vertices(1628) = 174
+active_vertices(1629) = 200
+active_vertices(1630) = 187
+active_vertices(1631) = 192
+active_vertices(1632) = 144
+active_vertices(1633) = 100
+active_vertices(1634) = 142
+active_vertices(1635) = 142
+active_vertices(1636) = 123
+active_vertices(1637) = 173
+active_vertices(1638) = 147
+active_vertices(1639) = 155
+active_vertices(1640) = 126
+active_vertices(1641) = 160
+active_vertices(1642) = 134
+active_vertices(1643) = 155
+active_vertices(1644) = 137
+active_vertices(1645) = 169
+active_vertices(1646) = 141
+active_vertices(1647) = 165
+active_vertices(1648) = 138
+active_vertices(1649) = 176
+active_vertices(1650) = 175
+active_vertices(1651) = 148
+active_vertices(1652) = 182
+active_vertices(1653) = 178
+active_vertices(1654) = 146
+active_vertices(1655) = 172
+active_vertices(1656) = 92
+active_vertices(1657) = 96
+active_vertices(1658) = 95
+active_vertices(1659) = 111
+active_vertices(1660) = 109
+active_vertices(1661) = 121
+active_vertices(1662) = 116
+active_vertices(1663) = 111
+active_vertices(1664) = 99
+active_vertices(1665) = 118
+active_vertices(1666) = 105
+active_vertices(1667) = 116
+active_vertices(1668) = 95
+active_vertices(1669) = 130
+active_vertices(1670) = 135
+active_vertices(1671) = 135
+active_vertices(1672) = 114
+active_vertices(1673) = 133
+active_vertices(1674) = 120
+active_vertices(1675) = 139
+active_vertices(1676) = 112
+active_vertices(1677) = 133
+active_vertices(1678) = 115
+active_vertices(1679) = 144
+active_vertices(1680) = 105
+active_vertices(1681) = 140
+active_vertices(1682) = 134
+active_vertices(1683) = 153
+active_vertices(1684) = 116
+active_vertices(1685) = 141
+active_vertices(1686) = 115
+active_vertices(1687) = 163
+active_vertices(1688) = 160
+active_vertices(1689) = 119
+active_vertices(1690) = 141
+active_vertices(1691) = 121
+active_vertices(1692) = 149
+active_vertices(1693) = 115
+active_vertices(1694) = 165
+active_vertices(1695) = 131
+active_vertices(1696) = 161
+active_vertices(1697) = 121
+active_vertices(1698) = 146
+active_vertices(1699) = 121
+active_vertices(1700) = 143
+active_vertices(1701) = 123
+active_vertices(1702) = 129
+active_vertices(1703) = 120
+active_vertices(1704) = 161
+active_vertices(1705) = 142
+active_vertices(1706) = 161
+active_vertices(1707) = 138
+active_vertices(1708) = 141
+active_vertices(1709) = 135
+active_vertices(1710) = 149
+active_vertices(1711) = 142
+active_vertices(1712) = 147
+active_vertices(1713) = 131
+active_vertices(1714) = 148
+active_vertices(1715) = 114
+active_vertices(1716) = 167
+active_vertices(1717) = 143
+active_vertices(1718) = 158
+active_vertices(1719) = 149
+active_vertices(1720) = 180
+active_vertices(1721) = 141
+active_vertices(1722) = 150
+active_vertices(1723) = 141
+active_vertices(1724) = 170
+active_vertices(1725) = 156
+active_vertices(1726) = 147
+active_vertices(1727) = 142
+active_vertices(1728) = 174
+active_vertices(1729) = 151
+active_vertices(1730) = 156
+active_vertices(1731) = 158
+active_vertices(1732) = 153
+active_vertices(1733) = 145
+active_vertices(1734) = 167
+active_vertices(1735) = 153
+active_vertices(1736) = 170
+active_vertices(1737) = 160
+active_vertices(1738) = 164
+active_vertices(1739) = 146
+active_vertices(1740) = 181
+active_vertices(1741) = 144
+active_vertices(1742) = 171
+active_vertices(1743) = 166
+active_vertices(1744) = 178
+active_vertices(1745) = 178
+active_vertices(1746) = 172
+active_vertices(1747) = 202
+active_vertices(1748) = 217
+active_vertices(1749) = 215
+active_vertices(1750) = 222
+active_vertices(1751) = 201
+active_vertices(1752) = 193
+active_vertices(1753) = 192
+active_vertices(1754) = 233
+active_vertices(1755) = 256
+active_vertices(1756) = 243
+active_vertices(1757) = 271
+active_vertices(1758) = 236
+active_vertices(1759) = 258
+active_vertices(1760) = 215
+active_vertices(1761) = 269
+active_vertices(1762) = 271
+active_vertices(1763) = 271
+active_vertices(1764) = 224
+active_vertices(1765) = 274
+active_vertices(1766) = 242
+active_vertices(1767) = 291
+active_vertices(1768) = 228
+active_vertices(1769) = 286
+active_vertices(1770) = 231
+active_vertices(1771) = 231
+active_vertices(1772) = 82
+active_vertices(1773) = 128
+active_vertices(1774) = 97
+active_vertices(1775) = 96
+active_vertices(1776) = 63
+active_vertices(1777) = 110
+active_vertices(1778) = 67
+active_vertices(1779) = 92
+active_vertices(1780) = 67
+active_vertices(1781) = 90
+active_vertices(1782) = 68
+active_vertices(1783) = 104
+active_vertices(1784) = 99
+active_vertices(1785) = 149
+active_vertices(1786) = 101
+active_vertices(1787) = 132
+active_vertices(1788) = 67
+active_vertices(1789) = 100
+active_vertices(1790) = 106
+active_vertices(1791) = 117
+active_vertices(1792) = 109
+active_vertices(1793) = 97
+active_vertices(1794) = 78
+active_vertices(1795) = 97
+active_vertices(1796) = 78
+active_vertices(1797) = 92
+active_vertices(1798) = 79
+active_vertices(1799) = 89
+active_vertices(1800) = 83
+active_vertices(1801) = 108
+active_vertices(1802) = 80
+active_vertices(1803) = 90
+active_vertices(1804) = 77
+active_vertices(1805) = 92
+active_vertices(1806) = 77
+active_vertices(1807) = 109
+active_vertices(1808) = 80
+active_vertices(1809) = 108
+active_vertices(1810) = 112
+active_vertices(1811) = 89
+active_vertices(1812) = 140
+active_vertices(1813) = 98
+active_vertices(1814) = 87
+active_vertices(1815) = 95
+active_vertices(1816) = 91
+active_vertices(1817) = 92
+active_vertices(1818) = 79
+active_vertices(1819) = 85
+active_vertices(1820) = 100
+active_vertices(1821) = 110
+active_vertices(1822) = 91
+active_vertices(1823) = 133
+active_vertices(1824) = 115
+active_vertices(1825) = 102
+active_vertices(1826) = 67
+active_vertices(1827) = 95
+active_vertices(1828) = 70
+active_vertices(1829) = 95
+active_vertices(1830) = 79
+active_vertices(1831) = 99
+active_vertices(1832) = 83
+active_vertices(1833) = 91
+active_vertices(1834) = 66
+active_vertices(1835) = 97
+active_vertices(1836) = 82
+active_vertices(1837) = 98
+active_vertices(1838) = 87
+active_vertices(1839) = 97
+active_vertices(1840) = 92
+active_vertices(1841) = 80
+active_vertices(1842) = 95
+active_vertices(1843) = 43
+active_vertices(1844) = 68
+active_vertices(1845) = 75
+active_vertices(1846) = 75
+active_vertices(1847) = 100
+active_vertices(1848) = 58
+active_vertices(1849) = 78
+active_vertices(1850) = 77
+active_vertices(1851) = 46
+active_vertices(1852) = 60
+active_vertices(1853) = 46
+active_vertices(1854) = 63
+active_vertices(1855) = 50
+active_vertices(1856) = 66
+active_vertices(1857) = 51
+active_vertices(1858) = 45
+active_vertices(1859) = 51
+active_vertices(1860) = 52
+active_vertices(1861) = 54
+active_vertices(1862) = 56
+active_vertices(1863) = 54
+active_vertices(1864) = 58
+active_vertices(1865) = 57
+active_vertices(1866) = 68
+active_vertices(1867) = 70
+active_vertices(1868) = 87
+active_vertices(1869) = 85
+active_vertices(1870) = 84
+active_vertices(1871) = 67
+active_vertices(1872) = 72
+active_vertices(1873) = 70
+active_vertices(1874) = 70
+active_vertices(1875) = 68
+active_vertices(1876) = 82
+active_vertices(1877) = 86
+active_vertices(1878) = 72
+active_vertices(1879) = 85
+active_vertices(1880) = 75
+active_vertices(1881) = 83
+active_vertices(1882) = 76
+active_vertices(1883) = 90
+active_vertices(1884) = 93
+active_vertices(1885) = 72
+active_vertices(1886) = 94
+active_vertices(1887) = 103
+active_vertices(1888) = 111
+active_vertices(1889) = 84
+active_vertices(1890) = 106
+active_vertices(1891) = 109
+active_vertices(1892) = 116
+active_vertices(1893) = 103
+active_vertices(1894) = 107
+active_vertices(1895) = 116
+active_vertices(1896) = 123
+active_vertices(1897) = 128
+active_vertices(1898) = 129
+active_vertices(1899) = 148
+active_vertices(1900) = 142
+active_vertices(1901) = 145
+active_vertices(1902) = 153
+active_vertices(1903) = 77
+active_vertices(1904) = 79
+active_vertices(1905) = 58
+active_vertices(1906) = 62
+active_vertices(1907) = 48
+active_vertices(1908) = 66
+active_vertices(1909) = 29
+active_vertices(1910) = 40
+active_vertices(1911) = 42
+active_vertices(1912) = 60
+active_vertices(1913) = 62
+active_vertices(1914) = 31
+active_vertices(1915) = 34
+active_vertices(1916) = 55
+active_vertices(1917) = 59
+active_vertices(1918) = 37
+active_vertices(1919) = 39
+active_vertices(1920) = 18
+active_vertices(1921) = 3
+active_vertices(1922) = 8
+active_vertices(1923) = 9
+active_vertices(1924) = 10
+active_vertices(1925) = 11
+active_vertices(1926) = 12
+active_vertices(1927) = 14
+active_vertices(1928) = 8
+active_vertices(1929) = 9
+active_vertices(1930) = 9
+active_vertices(1931) = 1
+active_vertices(1932) = 0
+community num is 11783
+community num is 0.477540
+set |V| to 11783
+|V| =  11783, |E| = 26965
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 11783
+community num is 0.477540
+<====     my_louvain  twitter-half     ====>
+set |V| to 0
+|V| = 41652225 |E| = 725758851
+edges loaded into memory
+preprocessing used 57.39 seconds
+m = 725758786.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 28820894
+active_vertices(1) = 14623301
+active_vertices(2) = 10533071
+active_vertices(3) = 6089800
+active_vertices(4) = 3698528
+active_vertices(5) = 2153472
+active_vertices(6) = 1514194
+active_vertices(7) = 856905
+active_vertices(8) = 548694
+active_vertices(9) = 343184
+active_vertices(10) = 314857
+active_vertices(11) = 178649
+active_vertices(12) = 148982
+active_vertices(13) = 126189
+active_vertices(14) = 106739
+active_vertices(15) = 93939
+active_vertices(16) = 76819
+active_vertices(17) = 75883
+active_vertices(18) = 68057
+active_vertices(19) = 57440
+active_vertices(20) = 63279
+active_vertices(21) = 49173
+active_vertices(22) = 45894
+active_vertices(23) = 44921
+active_vertices(24) = 53495
+active_vertices(25) = 51579
+active_vertices(26) = 61319
+active_vertices(27) = 72204
+active_vertices(28) = 106402
+active_vertices(29) = 98302
+active_vertices(30) = 111909
+active_vertices(31) = 153095
+active_vertices(32) = 119086
+active_vertices(33) = 323680
+active_vertices(34) = 94703
+active_vertices(35) = 29337
+active_vertices(36) = 24264
+active_vertices(37) = 13458
+active_vertices(38) = 11437
+active_vertices(39) = 5827
+active_vertices(40) = 2961
+active_vertices(41) = 2378
+active_vertices(42) = 1350
+active_vertices(43) = 766
+active_vertices(44) = 418
+active_vertices(45) = 447
+active_vertices(46) = 514
+active_vertices(47) = 526
+active_vertices(48) = 1520
+active_vertices(49) = 4632
+active_vertices(50) = 2928
+active_vertices(51) = 1084
+active_vertices(52) = 780
+active_vertices(53) = 401
+active_vertices(54) = 155
+active_vertices(55) = 34
+active_vertices(56) = 25
+active_vertices(57) = 12
+active_vertices(58) = 6
+active_vertices(59) = 0
+community num is 497295
+community num is 0.472433
+set |V| to 497295
+|V| =  497295, |E| = 3586339
+preprocessing used 0.53 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 463991
+active_vertices(1) = 277875
+active_vertices(2) = 234595
+active_vertices(3) = 95838
+active_vertices(4) = 86897
+active_vertices(5) = 75440
+active_vertices(6) = 9582
+active_vertices(7) = 995
+active_vertices(8) = 111
+active_vertices(9) = 4
+active_vertices(10) = 0
+community num is 30481
+community num is 0.479193
+set |V| to 30481
+|V| =  30481, |E| = 137999
+preprocessing used 0.08 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 11009
+active_vertices(1) = 4315
+active_vertices(2) = 4022
+active_vertices(3) = 57
+active_vertices(4) = 3
+active_vertices(5) = 0
+community num is 19505
+community num is 0.479239
+set |V| to 19505
+|V| =  19505, |E| = 57497
+preprocessing used 0.01 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 240
+active_vertices(1) = 90
+active_vertices(2) = 31
+active_vertices(3) = 25
+active_vertices(4) = 27
+active_vertices(5) = 24
+active_vertices(6) = 26
+active_vertices(7) = 40
+active_vertices(8) = 41
+active_vertices(9) = 28
+active_vertices(10) = 20
+active_vertices(11) = 19
+active_vertices(12) = 19
+active_vertices(13) = 18
+active_vertices(14) = 18
+active_vertices(15) = 19
+active_vertices(16) = 19
+active_vertices(17) = 19
+active_vertices(18) = 19
+active_vertices(19) = 20
+active_vertices(20) = 20
+active_vertices(21) = 20
+active_vertices(22) = 21
+active_vertices(23) = 22
+active_vertices(24) = 22
+active_vertices(25) = 22
+active_vertices(26) = 22
+active_vertices(27) = 22
+active_vertices(28) = 22
+Something Wrong
+community num is 19263
+community num is 0.479239
+set |V| to 19263
+|V| =  19263, |E| = 54584
+preprocessing used 0.01 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 16
+active_vertices(1) = 2
+active_vertices(2) = 0
+community num is 19253
+community num is 0.479239
+set |V| to 19253
+|V| =  19253, |E| = 54267
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 3
+active_vertices(1) = 0
+community num is 19252
+community num is 0.479239
+set |V| to 19252
+|V| =  19252, |E| = 54218
+preprocessing used 0.01 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 19252
+community num is 0.479239
+<====     my_louvain  twitter-half     ====>
+set |V| to 0
+|V| = 41652225 |E| = 725758851
+edges loaded into memory
+preprocessing used 59.39 seconds
+m = 725758786.000000
+here
+enter Louvain_propagate
+active_vertices(0) = 28820843
+active_vertices(1) = 14665323
+active_vertices(2) = 10545878
+active_vertices(3) = 6274325
+active_vertices(4) = 3587115
+active_vertices(5) = 1972905
+active_vertices(6) = 1207589
+active_vertices(7) = 717175
+active_vertices(8) = 438095
+active_vertices(9) = 268782
+active_vertices(10) = 193101
+active_vertices(11) = 157518
+active_vertices(12) = 113331
+active_vertices(13) = 87432
+active_vertices(14) = 68033
+active_vertices(15) = 57847
+active_vertices(16) = 42150
+active_vertices(17) = 34454
+active_vertices(18) = 32359
+active_vertices(19) = 25818
+active_vertices(20) = 19565
+active_vertices(21) = 12829
+active_vertices(22) = 9216
+active_vertices(23) = 9508
+active_vertices(24) = 7258
+active_vertices(25) = 6725
+active_vertices(26) = 6063
+active_vertices(27) = 5760
+active_vertices(28) = 5059
+active_vertices(29) = 4680
+active_vertices(30) = 3820
+active_vertices(31) = 2820
+active_vertices(32) = 1883
+active_vertices(33) = 1263
+active_vertices(34) = 1034
+active_vertices(35) = 1170
+active_vertices(36) = 1226
+active_vertices(37) = 1215
+active_vertices(38) = 1154
+active_vertices(39) = 1048
+active_vertices(40) = 1057
+active_vertices(41) = 1074
+active_vertices(42) = 1230
+active_vertices(43) = 1085
+active_vertices(44) = 815
+active_vertices(45) = 639
+active_vertices(46) = 599
+active_vertices(47) = 509
+active_vertices(48) = 376
+active_vertices(49) = 401
+active_vertices(50) = 461
+active_vertices(51) = 373
+active_vertices(52) = 300
+active_vertices(53) = 211
+active_vertices(54) = 189
+active_vertices(55) = 168
+active_vertices(56) = 145
+active_vertices(57) = 103
+active_vertices(58) = 78
+active_vertices(59) = 17
+active_vertices(60) = 0
+community num is 514292
+community num is 0.470560
+set |V| to 514292
+|V| =  514292, |E| = 3821654
+preprocessing used 0.56 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 485526
+active_vertices(1) = 382555
+active_vertices(2) = 229542
+active_vertices(3) = 33951
+active_vertices(4) = 3898
+active_vertices(5) = 309
+active_vertices(6) = 65
+active_vertices(7) = 20
+active_vertices(8) = 5
+active_vertices(9) = 1
+active_vertices(10) = 0
+community num is 25041
+community num is 0.477901
+set |V| to 25041
+|V| =  25041, |E| = 118076
+preprocessing used 0.06 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 9784
+active_vertices(1) = 5233
+active_vertices(2) = 4096
+active_vertices(3) = 3881
+active_vertices(4) = 4172
+active_vertices(5) = 3839
+active_vertices(6) = 4109
+active_vertices(7) = 4040
+active_vertices(8) = 4090
+active_vertices(9) = 4294
+active_vertices(10) = 4193
+active_vertices(11) = 3774
+active_vertices(12) = 4019
+active_vertices(13) = 3849
+active_vertices(14) = 3993
+active_vertices(15) = 3866
+active_vertices(16) = 3955
+active_vertices(17) = 3959
+active_vertices(18) = 3854
+active_vertices(19) = 3877
+active_vertices(20) = 4102
+active_vertices(21) = 4133
+active_vertices(22) = 4170
+active_vertices(23) = 6324
+active_vertices(24) = 4804
+active_vertices(25) = 4647
+active_vertices(26) = 4454
+active_vertices(27) = 4029
+active_vertices(28) = 3824
+active_vertices(29) = 3816
+active_vertices(30) = 4008
+active_vertices(31) = 3868
+active_vertices(32) = 3832
+active_vertices(33) = 3697
+active_vertices(34) = 3692
+active_vertices(35) = 3687
+active_vertices(36) = 3679
+active_vertices(37) = 3684
+active_vertices(38) = 3689
+active_vertices(39) = 3691
+active_vertices(40) = 3695
+active_vertices(41) = 3696
+active_vertices(42) = 3696
+active_vertices(43) = 3696
+active_vertices(44) = 3678
+active_vertices(45) = 3694
+active_vertices(46) = 3691
+active_vertices(47) = 3694
+active_vertices(48) = 3676
+active_vertices(49) = 3690
+active_vertices(50) = 3683
+active_vertices(51) = 4228
+active_vertices(52) = 4205
+active_vertices(53) = 3690
+active_vertices(54) = 3675
+active_vertices(55) = 3666
+active_vertices(56) = 3685
+active_vertices(57) = 3676
+active_vertices(58) = 4180
+active_vertices(59) = 3915
+active_vertices(60) = 4617
+active_vertices(61) = 4674
+active_vertices(62) = 4225
+active_vertices(63) = 3987
+active_vertices(64) = 3800
+active_vertices(65) = 3803
+active_vertices(66) = 3723
+active_vertices(67) = 3768
+active_vertices(68) = 4605
+active_vertices(69) = 3231
+active_vertices(70) = 4221
+active_vertices(71) = 3794
+active_vertices(72) = 3883
+active_vertices(73) = 3862
+active_vertices(74) = 591
+active_vertices(75) = 4
+active_vertices(76) = 0
+community num is 15223
+community num is 0.477964
+set |V| to 15223
+|V| =  15223, |E| = 43311
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 173
+active_vertices(1) = 73
+active_vertices(2) = 23
+active_vertices(3) = 0
+community num is 15058
+community num is 0.477964
+set |V| to 15058
+|V| =  15058, |E| = 39958
+preprocessing used 0.04 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 13
+active_vertices(1) = 0
+community num is 15050
+community num is 0.477964
+set |V| to 15050
+|V| =  15050, |E| = 39711
+preprocessing used 0.03 seconds
+subgraph build over
+m = 725758786.000000
+enter Louvain_propagate
+active_vertices(0) = 0
+community num is 15050
+community num is 0.477964
