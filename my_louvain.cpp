@@ -334,6 +334,9 @@ int main(int argc, char ** argv) {
   config.ExitAfterHelp();
   config.Finalize();
 
+  double exec_time = 0;
+  exec_time -= get_time();
+
   Graph<double> * graph;
   graph = new Graph<double>();
   if (input_format == 0) {
@@ -341,11 +344,16 @@ int main(int argc, char ** argv) {
   } else {
     graph->load_txt_undirected(input_dir, vertices, parse_edge, filter_edge);
   }
+  exec_time += get_time();
+  printf("prepare time = %lf(s)\n", exec_time);
   Louvain_graph * l_graph = new Louvain_graph(graph);
   l_graph->init();
   //init测试完成
-  printf("here\n");
+  exec_time = 0;
+  exec_time -= get_time();
   l_graph->Louvain_propagate();
   l_graph->update_by_subgraph();
   //l_graph->update_all();
+  exec_time += get_time();
+  printf("exec_time = %lf(s)\n", exec_time);
 }
