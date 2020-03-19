@@ -9,6 +9,7 @@
 #include "fma-common/license.h"
 
 #define MAX_VID 1099511627775ul
+double* new_m;    //记录节点的二度邻居的总链接数
 
 
 size_t parse_edge(const char *p, const char * end, EdgeUnit<double> & e) {
@@ -46,9 +47,10 @@ class Louvain_graph {
   VertexId* label;
   Bitmap* active;
   double* e_tot;   //e_tot means degree of each community
-  double* k;      //k means degree of each vertex
+  double* k;      //k means edges weight sum of each vertex
   VertexId comm_num;
   double Q;
+  double LQ;
 
 public:
   Louvain_graph(Graph<double>* _graph){
@@ -56,21 +58,21 @@ public:
   }
 
   VertexId update_comm_num(){
-  	comm_num = my_graph->stream_vertices<VertexId>(
-  		[&](VertexId dst){
-  			if(e_tot[dst] == 0){
-  				return 0;
-  			}
-  			return 1;
-  		},
-  		active
-  	);
-  	printf("community num is %lu\n",comm_num);
-  	return comm_num;
+    comm_num = my_graph->stream_vertices<VertexId>(
+      [&](VertexId dst){
+        if(e_tot[dst] == 0){
+          return 0;
+        }
+        return 1;
+      },
+      active
+    );
+    printf("community num is %lu\n",comm_num);
+    return comm_num;
   }
 
   VertexId get_comm_num(){
-  	return comm_num;
+    return comm_num;
   }
 
   double update_Q() {
@@ -86,8 +88,29 @@ public:
       },
       active
     ) / (2.0 * m);
-    printf("community num is %f\n",Q);
+    printf("Q =  %f\n",Q);
     return Q;
+  }
+
+  double update_LQ() {
+    LQ = my_graph->stream_vertices<double> (
+      [&] (VertexId v) {
+        double temp_m = new_m[v];
+        // double temp_m = m;
+        // printf("vertexId = %lu,temp_m = %f\n",v,new_m[v]);
+        double q = 0.0;
+        for (auto e : my_graph->out_edges(v)) {
+          VertexId nbr = e.neighbour;
+          if (label[v] == label[nbr]) q += e.edge_data;
+        }
+        q -= 1.0 * k[v] * e_tot[label[v]] / (2 * temp_m);
+        // printf("vertexId = %lu,LQ = %f\n",v,q);
+        return q / (2.0 * temp_m);
+      },
+      active
+    );
+    printf("LQ = %f\n",LQ);
+    return LQ;
   }
 
   double get_Q() {
@@ -109,6 +132,44 @@ public:
     update_e_tot();
     update_comm_num();
     update_Q();
+    update_LQ();
+    update_cp();
+  }
+
+  void update_cp(){
+    double A = 0.0;
+    double B = 0.0;
+    VertexId* count = my_graph->alloc_vertex_array<VertexId>();
+    my_graph -> fill_vertex_array(count, (VertexId)0);
+    my_graph->stream_vertices<char>(
+      [&](VertexId v){
+        write_add(&count[label[v]],(VertexId)1);
+        return 0;
+      },
+      active
+    );
+    B = my_graph->stream_vertices<VertexId>(
+      [&](VertexId v){
+        if(count[v] != 0){
+          return count[v]*(count[v]-1);
+        }
+        return (VertexId)0;
+      },
+      active
+    );
+    A = my_graph->stream_vertices<VertexId>(
+      [&](VertexId v){
+        for(auto e : my_graph->out_edges(v)){
+          VertexId s = e.neighbour;
+          if(label[v] == label[s]){
+            return 1;
+          }
+        }
+        return 0;
+      },
+      active
+    );
+    printf("graph condition probability = %f\n",A / B);
   }
 
   void init(){
@@ -136,6 +197,32 @@ public:
       active
     ) / 2;
     printf("m = %f\n",m);
+  }
+
+  void update_new_m(){
+    double init_time = 0.0;
+    init_time -= get_time();
+    my_graph->stream_vertices<char>(
+      [&](VertexId v){
+        double temp_m = 0.0;
+        std::unordered_map<VertexId,int> temp;
+        for (auto e : my_graph->out_edges(v)) {
+          VertexId nbr = e.neighbour;
+          temp[nbr] = 0;
+          for(auto m : my_graph->out_edges(nbr)){
+            VertexId nbr2 = m.neighbour;
+            temp[nbr2] = 0;
+          }
+        }
+        for(auto v : temp){
+          temp_m += my_graph->out_degree[v.first];
+        }
+        new_m[v] = temp_m;
+        return 0;
+      },
+      active
+    );
+    printf("exec_time = %lf(s),finding second neighbour over\n",init_time + get_time());
   }
   //init over
   VertexId async_louvain(){
@@ -193,39 +280,88 @@ public:
     );
     return active_vertices;
   }
+  //one thread
+  VertexId single_louvain(){
+    VertexId active_vertices = 0;
+    for(VertexId dst = 0;dst < my_graph->get_num_vertices();dst++){
+        std::unordered_map<VertexId, double> count;
+        for (auto e : my_graph->out_edges(dst)) {
+          if (dst == e.neighbour) continue;
+          VertexId src = e.neighbour;
+          auto it = count.find(label[src]);
+          if (it == count.end()) {
+            count[label[src]] = e.edge_data;
+          }else{
+            it->second += e.edge_data;
+          }
+        }
+        VertexId best_c = label[dst];
+        VertexId old_label = label[dst];
+
+        double k_in_out = 0.0;
+        if (count.find(old_label) != count.end()) {
+          k_in_out = count[old_label];
+        }
+        double delta_in = k[dst] * (e_tot[old_label]-k[dst]) - 2.0 * k_in_out * m;
+        delta_in = -delta_in;
+
+        for (auto & ele : count){
+          if(label[dst] != ele.first){
+            double k_i_in = ele.second;
+            double delta_out = k_i_in*2.0*m - k[dst]*e_tot[ele.first];
+            if(delta_out > delta_in){
+              best_c = ele.first;
+              delta_in = delta_out;
+            }else
+            if(delta_out == delta_in && ele.first < best_c){
+              best_c = ele.first;
+            }
+          }
+        }
+        if(best_c != label[dst]){
+          write_add(&e_tot[label[dst]],-k[dst]);
+          my_graph->lock_vertex(dst);
+          label[dst] = best_c;
+          write_add(&e_tot[best_c],k[dst]);
+          my_graph->unlock_vertex(dst);
+          active_vertices++;
+        }
+      }
+    return active_vertices;
+  }
 
   //first iter of Louvain
   void Louvain_propagate(){
     printf("enter Louvain_propagate\n");
-  	VertexId active_vertices = my_graph->get_num_vertices();
-  	// LOG()<<"active_vertices = "<<active_vertices;
+    VertexId active_vertices = my_graph->get_num_vertices();
+    // LOG()<<"active_vertices = "<<active_vertices;
     VertexId old_vertices = active_vertices;
-  	int cyc = 0;
-  	int comm_cyc = 0;
-  	while(active_vertices > 0){
-  		old_vertices = active_vertices;
-  		active_vertices = async_louvain();
+    int cyc = 0;
+    int comm_cyc = 0;
+    while(active_vertices > 0){
+      old_vertices = active_vertices;
+      active_vertices = single_louvain();
       printf("active_vertices(%d) = %lu\n", cyc, active_vertices);
-      	cyc++;
-      	if(old_vertices == active_vertices){
-      		comm_cyc++;
-      	}else{
-      		comm_cyc = 0;
-      	}
+        cyc++;
+        if(old_vertices == active_vertices){
+          comm_cyc++;
+        }else{
+          comm_cyc = 0;
+        }
 
-      	if(comm_cyc == 5){
-      		printf("Something Wrong\n");
-      		break;
-      	}
-  	}
-  	update_comm_num();
+        if(comm_cyc == 5){
+          printf("Something Wrong\n");
+          break;
+        }
+    }
+    update_comm_num();
     update_Q();
   }
 
   void update_by_subgraph(){
-  	//label,my_graph,
-  	long int * sub_index = my_graph->alloc_vertex_array<long int>();
-    VertexId num_sub_vertices = 0;			//vertices of new graph
+    //label,my_graph,
+    long int * sub_index = my_graph->alloc_vertex_array<long int>();
+    VertexId num_sub_vertices = 0;      //vertices of new graph
     for (VertexId i = 0; i < my_graph->get_num_vertices();i ++) {
       if (e_tot[i] == 0) {
         sub_index[i] = -1;
@@ -238,39 +374,39 @@ public:
     std::vector<std::unordered_map<VertexId, double> > sub_edges(num_sub_vertices);
 
     for(VertexId i = 0;i < my_graph->get_num_vertices();i ++){
-    	if(sub_index[label[i]] == -1) continue;
-    	for(auto e : my_graph->out_edges(i)){
-    		//only save one direction out_edges
-    		if(i <= e.neighbour){
-    			double e_double = e.edge_data;
-    			if(i == e.neighbour){
-    				e_double /= 2;
-    			}
-    			auto iter = sub_edges[sub_index[label[i]]].find(sub_index[label[e.neighbour]]);
-    			if(iter == sub_edges[sub_index[label[i]]].end()){
-    				sub_edges[sub_index[label[i]]][sub_index[label[e.neighbour]]] = e_double;
-    			}else{
-    				iter->second += e_double;
-    			}
-    		}
-    	}
+      if(sub_index[label[i]] == -1) continue;
+      for(auto e : my_graph->out_edges(i)){
+        //only save one direction out_edges
+        if(i <= e.neighbour){
+          double e_double = e.edge_data;
+          if(i == e.neighbour){
+            e_double /= 2;
+          }
+          auto iter = sub_edges[sub_index[label[i]]].find(sub_index[label[e.neighbour]]);
+          if(iter == sub_edges[sub_index[label[i]]].end()){
+            sub_edges[sub_index[label[i]]][sub_index[label[e.neighbour]]] = e_double;
+          }else{
+            iter->second += e_double;
+          }
+        }
+      }
     }
 
     VertexId sub_edges_num = 0;
     for(VertexId i = 0;i < sub_edges.size();i++){
-    	sub_edges_num += sub_edges[i].size();
+      sub_edges_num += sub_edges[i].size();
     }
 
     EdgeUnit<double> * sub_edge_array = new EdgeUnit<double>[sub_edges_num];
     VertexId index = 0;
     for(VertexId sub_node = 0;sub_node < num_sub_vertices;sub_node ++){
-    	for(auto ele : sub_edges[sub_node]){
-    		assert(index < sub_edges_num);
-    		sub_edge_array[index].src = sub_node;
-    		sub_edge_array[index].dst = ele.first;
-    		sub_edge_array[index].edge_data = ele.second;
-    		index++;
-    	}
+      for(auto ele : sub_edges[sub_node]){
+        assert(index < sub_edges_num);
+        sub_edge_array[index].src = sub_node;
+        sub_edge_array[index].dst = ele.first;
+        sub_edge_array[index].edge_data = ele.second;
+        index++;
+      }
     }
     sub_edges.clear();
 
@@ -317,7 +453,27 @@ public:
       active
     );
   }
+  void output(std::string output_dir) {
+    int num_threads = omp_get_num_procs();
+    fma_common::OutputFmaStream * fout = new fma_common::OutputFmaStream [num_threads];
+    for (int t_i = 0; t_i < num_threads; t_i++) {
+      std::string filename = fma_common::StringFormatter::Format("{}/part-r-{}", output_dir, t_i);
+      fout[t_i].Open(filename, 64 << 20);
+    }
 
+    #pragma omp parallel for
+    for (VertexId v_i = 0; v_i < my_graph->get_num_vertices(); v_i++) {
+        if (my_graph->out_degree[v_i] > 0) {
+            int t_i = omp_get_thread_num();
+            std::string line = fma_common::StringFormatter::Format("{} {}\n", v_i, label[v_i]);
+            fout[t_i].Write(line.c_str(), line.size());
+        }
+    }
+    for (int t_i = 0; t_i < num_threads; t_i++) {
+      fout[t_i].Close();
+    }
+    LOG() << "writing to files done!";
+  }
 };
 
 int main(int argc, char ** argv) {
@@ -346,14 +502,17 @@ int main(int argc, char ** argv) {
   }
   exec_time += get_time();
   printf("prepare time = %lf(s)\n", exec_time);
-  Louvain_graph * l_graph = new Louvain_graph(graph);
-  l_graph->init();
-  //init测试完成
   exec_time = 0;
   exec_time -= get_time();
+  Louvain_graph * l_graph = new Louvain_graph(graph);
+  l_graph->init();
+  new_m = graph->alloc_vertex_array<double>();
+  l_graph->update_new_m();
+  //init测试完成
   l_graph->Louvain_propagate();
   l_graph->update_by_subgraph();
-  //l_graph->update_all();
+  l_graph->update_all();
   exec_time += get_time();
   printf("exec_time = %lf(s)\n", exec_time);
+  l_graph->output(output_dir);
 }
